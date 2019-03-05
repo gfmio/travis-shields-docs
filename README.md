@@ -121,9 +121,6 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
     <img src="https://img.shields.io/maintenance/yes/2019.svg" alt="Actively maintained (2019)" title="Actively maintained (2019)" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/osslifecycle/gfmio/travis-shields-docs.svg" alt="" title="" />
-  </a>
-  <a href="#">
     <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/travis-shields-docs.svg" alt="" title="" />
   </a>
   <a href="https://gitter.im/travis-shields-docs">
