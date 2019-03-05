@@ -14,11 +14,7 @@ import {
   SRC_ENTRYPOINT,
 } from "../../config";
 
-const options = (
-  target: "esm" | "cjs" | "umd",
-  sourcemap: boolean,
-  minify: boolean,
-): { input: InputOptions; output: OutputOptions } => {
+const inputOptions = (target: "esm" | "cjs" | "umd", sourcemap: boolean, minify: boolean): InputOptions => {
   const plugins = [
     typescript({
       tsconfigDefaults: ROLLUP_TS_DEFAULT_CONFIG[target],
@@ -27,14 +23,16 @@ const options = (
     ...(minify ? [terser()] : []),
   ];
 
-  const input = {
+  return {
     input: SRC_ENTRYPOINT,
     plugins,
   };
+};
 
+const outputOptions = (target: "esm" | "cjs" | "umd", sourcemap: boolean, minify: boolean): OutputOptions => {
   const min = minify ? ".min" : "";
 
-  const output = {
+  return {
     cjs: {
       esModule: true,
       file: path.join(OUTPUT_PATH, ROLLUP_BUNDLE_BASENAME + min + ".js"),
@@ -55,8 +53,11 @@ const options = (
       sourcemap,
     } as OutputOptions,
   }[target];
-
-  return { input, output };
 };
+
+const options = (target: "esm" | "cjs" | "umd", sourcemap: boolean, minify: boolean) => ({
+  input: inputOptions(target, sourcemap, minify),
+  output: outputOptions(target, sourcemap, minify),
+});
 
 export default options;
