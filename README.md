@@ -117,13 +117,13 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
 <!-- Misc -->
 
 <p align="center">
-  <a href="">
-    <img src="https://img.shields.io/maintenance/:maintained(yes|no)/:year.svg" alt="" title="" />
+  <a href="#">
+    <img src="https://img.shields.io/maintenance/yes/2019.svg" alt="Actively maintained (2019)" title="Actively maintained (2019)" />
   </a>
-  <a href="">
+  <a href="#">
     <img src="https://img.shields.io/osslifecycle/gfmio/travis-shields-docs.svg" alt="" title="" />
   </a>
-  <a href="">
+  <a href="#">
     <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/travis-shields-docs.svg" alt="" title="" />
   </a>
   <a href="https://gitter.im/travis-shields-docs">
@@ -135,9 +135,7 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
   <a href="https://twitter.com/gfmio">
     <img alt="Follow gfmio on Twitter" src="https://img.shields.io/twitter/follow/gfmio.svg?label=follow+gfmio">
   </a>
-  <a href="#badge">
+  <a href="#">
     <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
   </a>
 </p>
-
-## License: MIT
