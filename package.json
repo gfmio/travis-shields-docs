@@ -31,11 +31,19 @@
   },
   "homepage": "https://github.com/codecov/example-typescript#readme",
   "scripts": {
-    "pretest": "tsc -p .",
-    "test": "nyc mocha -r ts-node/register tests/**/*.test.ts",
-    "posttest": "nyc report --reporter=json",
-    "test:coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" mocha -r ts-node/register tests/**/*.test.ts && nyc report",
-    "lint": "tslint --project tsconfig.json"
+    "prebuild": "npm-run-all clean:lib",
+    "build": "tsc",
+    "pretest": "npm-run-all build clean:test",
+    "test": "nyc -r lcov -e .ts -x \"*.test.ts\" mocha -r ts-node/register tests/**/*.test.ts",
+    "posttest": "npm-run-all posttest:print posttest:lcov posttest:json",
+    "posttest:print": "nyc report",
+    "posttest:lcov": "nyc report --reporter=lcov",
+    "posttest:json": "nyc report --reporter=json",
+    "lint": "tslint --project tsconfig.json",
+    "clean:lib": "rimraf ./lib",
+    "clean:node_modules": "rimraf ./node_modules",
+    "clean:test": "rimraf ./.nyc_output ./coverage",
+    "clean:all": "npm-run-all clean:lib clean:node_modules clean:test"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -43,7 +51,9 @@
     "chai": "^4.2.0",
     "codecov": "^3.2.0",
     "mocha": "^6.0.2",
+    "npm-run-all": "^4.1.5",
     "nyc": "^13.3.0",
+    "rimraf": "^2.6.3",
     "ts-node": "^8.0.2",
     "tslint": "^5.13.1",
     "typescript": "^3.3.3333"
