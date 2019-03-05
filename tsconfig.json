@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
+    "outDir": "./dist",
     // Output target & module type
     "target": "es3",
     "module": "commonjs",
@@ -13,7 +13,7 @@
     // Module resolution
     "moduleResolution": "node",
     "allowJs": false,
-    "resolveJsonModule": false,
+    "resolveJsonModule": true,
     "preserveSymlinks": false,
 
     // Compiler message formatting, error handling

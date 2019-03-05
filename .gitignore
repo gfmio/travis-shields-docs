@@ -1,7 +1,11 @@
 ### Output directory ###
 
 docs
-lib
+dist
+
+### Rollup cache ###
+
+.rpt2_cache
 
 # Created by https://www.gitignore.io/api/node,macos,linux,windows
 # Edit at https://www.gitignore.io/?templates=node,macos,linux,windows
