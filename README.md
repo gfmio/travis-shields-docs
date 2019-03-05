@@ -5,28 +5,43 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
 <!-- Github -->
 
 <p align="center">
+  <!-- License -->
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/gfmio/travis-shields-docs.svg" alt="Github license" title="Github license" />
   </a>
-  <a href="#">
+  
+  <!-- Open issues -->
+  <a href="../../issues">
     <img src="https://img.shields.io/github/issues/gfmio/travis-shields-docs.svg" alt="Open issues" title="Open issues" /
   </a>
-  <a href="#">
+  
+  <!-- Closed issues -->
+  <a href="../../issues?utf8=✓&q=is%3Aissue+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-closed/gfmio/travis-shields-docs.svg" alt="Closed issues" title="Closed issues" />
   </a>
-  <a href="#">
+  
+  <!-- Open Pull Requests -->
+  <a href="../../pulls">
     <img src="https://img.shields.io/github/issues-pr/gfmio/travis-shields-docs.svg" alt="Open Pull Requests" title="Open Pull Requests" />
   </a>
-  <a href="#">
+  
+  <!-- Closed Pull Requests -->
+  <a href="../../pulls?utf8=✓&q=is%3Apr+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-pr-closed/gfmio/travis-shields-docs.svg" alt="Closed Pull Requests" title="Closed Pull Requests" />
   </a>
-  <a href="#">
+  
+  <!-- Commit activity -->
+  <a href="../../graphs/commit-activity">
     <img src="https://img.shields.io/github/commit-activity/m/gfmio/travis-shields-docs.svg" alt="Commit activity" title="Commit activity" />
   </a>
-  <a href="#">
+  
+  <!-- Contributors -->
+  <a href="../../graphs/contributors">
     <img src="https://img.shields.io/github/contributors/gfmio/travis-shields-docs.svg" alt="Github contributors" title="Github contributors" />
   </a>
-  <a href="#">
+  
+  <!-- Last commit -->
+  <a href="../../commits/master">
     <img src="https://img.shields.io/github/last-commit/gfmio/travis-shields-docs.svg" alt="Last commit" title="Last commit" />
   </a>
 </p>
@@ -46,10 +61,7 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
   
   <!-- Snyk -->
   <a href="https://snyk.io/test/github/gfmio/travis-shields-docs?targetFile=package.json">
-    <img src="https://img.shields.io/codecov/c/github/gfmio/travis-shields-docs.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/snyk/vulnerabilities/npm/:packageName.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
+    <img src="https://img.shields.io/snyk/vulnerabilities/github/gfmio/travis-shields-docs.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
   </a>
 
   <!-- Libraries.io -->
@@ -95,6 +107,10 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
   </a>
   <a href="">
     <img src="https://img.shields.io/npm/types/:packageName.svg" alt="" title="" />
+  </a>
+  
+  <a href="#">
+    <img src="https://img.shields.io/snyk/vulnerabilities/npm/:packageName.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
   </a>
 </p>
 
