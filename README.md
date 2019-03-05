@@ -45,36 +45,36 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
   </a>
   
   <!-- Snyk -->
-  <a href="#">
-    <img src="https://img.shields.io/codecov/c/github/gfmio/travis-shields-docs.svg" alt="Snyk Vulnerabilities for GitHub Repo" title="Snyk Vulnerabilities for GitHub Repo">
+  <a href="https://snyk.io/test/github/gfmio/travis-shields-docs?targetFile=package.json">
+    <img src="https://img.shields.io/codecov/c/github/gfmio/travis-shields-docs.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
   </a>
   <a href="#">
-    <img src="https://img.shields.io/snyk/vulnerabilities/npm/:packageName.svg" alt="Snyk Vulnerabilities for npm package" title="Snyk Vulnerabilities for npm package">
+    <img src="https://img.shields.io/snyk/vulnerabilities/npm/:packageName.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
   </a>
 
   <!-- Libraries.io -->
-  <a href="#">
+  <a href="https://libraries.io/github/gfmio/travis-shields-docs">
     <img src="https://img.shields.io/librariesio/github/gfmio/travis-shields-docs.svg" alt="Libraries.io dependency status" title="Libraries.io dependency status" />
   </a>
 
   <!-- Code Climate -->
   <a href="https://codeclimate.com/github/gfmio/travis-shields-docs/issues">
-    <img src="https://img.shields.io/codeclimate/issues/github/gfmio/travis-shields-docs.svg" alt="Code Climate issues" title="Code Climate issues" />
+    <img src="https://img.shields.io/codeclimate/issues/gfmio/travis-shields-docs.svg" alt="Code Climate issues" title="Code Climate issues" />
   </a>
   <a href="https://codeclimate.com/github/gfmio/travis-shields-docs/maintainability">
-    <img src="https://img.shields.io/codeclimate/maintainability/github/gfmio/travis-shields-docs.svg" alt="Code Climate maintainability" title="Code Climate maintainability" />
+    <img src="https://img.shields.io/codeclimate/maintainability/gfmio/travis-shields-docs.svg" alt="Code Climate maintainability" title="Code Climate maintainability" />
   </a>
   <a href="https://codeclimate.com/github/gfmio/travis-shields-docs/maintainability">
-    <img src="https://img.shields.io/codeclimate/maintainability-percentage/github/gfmio/travis-shields-docs.svg" alt="Code Climate maintainability (percentage)" title="Code Climate maintainability (percentage)" />
+    <img src="https://img.shields.io/codeclimate/maintainability-percentage/gfmio/travis-shields-docs.svg" alt="Code Climate maintainability (percentage)" title="Code Climate maintainability (percentage)" />
   </a>
   <a href="https://codeclimate.com/github/gfmio/travis-shields-docs">
-    <img src="https://img.shields.io/codeclimate/tech-debt/github/gfmio/travis-shields-docs.svg" alt="Code Climate technical debt" title="Code Climate technical debt" />
+    <img src="https://img.shields.io/codeclimate/tech-debt/gfmio/travis-shields-docs.svg" alt="Code Climate technical debt" title="Code Climate technical debt" />
   </a>
   <a href="https://codeclimate.com/github/gfmio/travis-shields-docs">
-    <img src="https://img.shields.io/codeclimate/coverage/github/gfmio/travis-shields-docs.svg" alt="Code Climate coverage" title="Code Climate coverage" />
+    <img src="https://img.shields.io/codeclimate/coverage/gfmio/travis-shields-docs.svg" alt="Code Climate coverage" title="Code Climate coverage" />
   </a>
   <a href="https://codeclimate.com/github/gfmio/travis-shields-docs">
-    <img src="https://img.shields.io/codeclimate/coverage-letter/github/gfmio/travis-shields-docs.svg" alt="Code Climate coverage (letter)" title="Code Climate coverage (letter)" />
+    <img src="https://img.shields.io/codeclimate/coverage-letter/gfmio/travis-shields-docs.svg" alt="Code Climate coverage (letter)" title="Code Climate coverage (letter)" />
   </a>
 </p>
 
