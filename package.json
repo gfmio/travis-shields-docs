@@ -2,12 +2,38 @@
   "name": "travis-shields-docs",
   "version": "1.0.0",
   "description": "A sample project for testing and configuring TravisCI with mocha/chai and status shields",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "author": "Frédérique Mittelstaedt <git@gfm.io> (www.gfm.io)",
   "license": "MIT",
   "private": true,
+  "keywords": [
+    "typescript",
+    "test",
+    "testing",
+    "mocha",
+    "chai",
+    "travis",
+    "ci",
+    "codecov",
+    "code climate",
+    "snyk",
+    "example",
+    "code",
+    "coverage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecov/example-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codecov/example-typescript/issues"
+  },
+  "homepage": "https://github.com/codecov/example-typescript#readme",
   "scripts": {
-    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "pretest": "tsc -p .",
+    "test": "nyc mocha -r ts-node/register tests/**/*.test.ts",
+    "posttest": "nyc report --reporter=json",
     "test:coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" mocha -r ts-node/register tests/**/*.test.ts && nyc report",
     "lint": "tslint --project tsconfig.json"
   },
@@ -15,6 +41,7 @@
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
     "chai": "^4.2.0",
+    "codecov": "^3.2.0",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
     "ts-node": "^8.0.2",
