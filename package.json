@@ -40,10 +40,12 @@
     "posttest:lcov": "nyc report --reporter=lcov",
     "posttest:json": "nyc report --reporter=json",
     "lint": "tslint --project tsconfig.json",
+    "docs": "typedoc",
     "clean:lib": "rimraf ./lib",
     "clean:node_modules": "rimraf ./node_modules",
     "clean:test": "rimraf ./.nyc_output ./coverage",
-    "clean:all": "npm-run-all clean:lib clean:node_modules clean:test"
+    "clean:docs": "rimraf ./docs",
+    "clean:all": "npm-run-all clean:lib clean:node_modules clean:test clean:docs"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
@@ -59,6 +61,7 @@
     "rimraf": "^2.6.3",
     "ts-node": "^8.0.2",
     "tslint": "^5.13.1",
+    "typedoc": "^0.14.2",
     "typescript": "^3.3.3333"
   },
   "husky": {

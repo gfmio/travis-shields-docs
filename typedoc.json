@@ -1,0 +1,6 @@
+{
+  "hideGenerator": true,
+  "out": "docs",
+  "theme": "default",
+  "readme": "README.md"
+}

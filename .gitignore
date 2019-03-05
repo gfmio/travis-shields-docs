@@ -1,5 +1,6 @@
 ### Output directory ###
 
+docs
 lib
 
 # Created by https://www.gitignore.io/api/node,macos,linux,windows
