@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
 cache:
-yarn: true
+  yarn: true
 install:
   - yarn install
 before_script:

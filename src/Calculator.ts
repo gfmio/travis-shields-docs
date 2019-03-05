@@ -18,6 +18,7 @@ export default class Calculator {
 
   public clear() {
     this.current = 0;
+    return this;
   }
 
   public add(n: number) {
