@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./lib",
     // Output target & module type
     "target": "es3",
     "module": "commonjs",
@@ -73,5 +74,6 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveConstEnums": false
-  }
+  },
+  "include": ["src/**/*"]
 }
