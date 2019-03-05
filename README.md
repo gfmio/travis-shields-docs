@@ -6,7 +6,7 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
 
 <p align="center">
   <!-- License -->
-  <a href="./LICENSE">
+  <a href="./LICENSE" target="_blank">
     <img src="https://img.shields.io/github/license/gfmio/travis-shields-docs.svg" alt="Github license" title="Github license" />
   </a>
   
@@ -126,13 +126,13 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
   <a href="">
     <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/travis-shields-docs.svg" alt="" title="" />
   </a>
-  <a href="https://gitter.im/gfmio/travis-shields-docs">
+  <a href="https://gitter.im/travis-shields-docs" target="_blank">
     <img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/gfmio/travis-shields-docs.svg">
   </a>
-  <a href="https://twitter.com/acdlite/status/974390255393505280">
+  <a href="https://twitter.com/acdlite/status/974390255393505280" target="_blank">
     <img alt="Blazing Fast" src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg">
   </a>
-  <a href="https://twitter.com/gfmio">
+  <a href="https://twitter.com/gfmio" target="_blank">
     <img alt="Follow gfmio on Twitter" src="https://img.shields.io/twitter/follow/gfmio.svg?label=follow+gfmio">
   </a>
   <a href="#badge">
