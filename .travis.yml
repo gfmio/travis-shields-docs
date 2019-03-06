@@ -20,7 +20,7 @@ after_script:
 deploy:
   provider: script
   on:
-    branch: production
+    branch: master
   skip_cleanup: true
   script:
     - npx semantic-release
