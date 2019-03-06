@@ -1,5 +1,6 @@
 import add from "./add";
 import div from "./div";
+import ln from "./ln";
 import mod from "./mod";
 import mul from "./mul";
 import sub from "./sub";
@@ -52,7 +53,7 @@ export default class Calculator {
   }
 
   public ln() {
-    this.current = Math.log(this.current);
+    this.current = ln(this.current);
     return this;
   }
 }
