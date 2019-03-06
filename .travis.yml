@@ -17,3 +17,10 @@ script:
 after_script:
   - codecov -f coverage/*.json
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+deploy:
+  provider: script
+  on:
+    branch: production
+  skip_cleanup: true
+  script:
+    - npx semantic-release
