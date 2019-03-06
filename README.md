@@ -93,24 +93,24 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
 <!-- NPM shields -->
 
 <p align="center">
-  <a href="">
-    <img src="https://img.shields.io/npm/l/:packageName.svg" alt="NPM license" title="NPM license" />
+  <a href="https://www.npmjs.com/package/travis-shields-docs">
+    <img src="https://img.shields.io/npm/l/travis-shields-docs.svg" alt="NPM license" title="NPM license" />
   </a>
-  <a href="">
-    <img src="https://img.shields.io/npm/v/:packageName.svg" alt="" title="" />
+  <a href="https://www.npmjs.com/package/travis-shields-docs">
+    <img src="https://img.shields.io/npm/v/travis-shields-docs.svg" alt="" title="" />
   </a>
-  <a href="">
-    <img src="https://img.shields.io/npm/dw/:packageName.svg" alt="" title="" />
+  <a href="https://www.npmjs.com/package/travis-shields-docs">
+    <img src="https://img.shields.io/npm/dw/travis-shields-docs.svg" alt="" title="" />
   </a>
-  <a href="">
-    <img src="https://img.shields.io/bundlephobia/minzip/:packageName.svg" alt="" title="" />
+  <a href="https://www.npmjs.com/package/travis-shields-docs">
+    <img src="https://img.shields.io/bundlephobia/minzip/travis-shields-docs.svg" alt="" title="" />
   </a>
-  <a href="">
-    <img src="https://img.shields.io/npm/types/:packageName.svg" alt="" title="" />
+  <a href="https://www.npmjs.com/package/travis-shields-docs">
+    <img src="https://img.shields.io/npm/types/travis-shields-docs.svg" alt="" title="" />
   </a>
   
   <a href="#">
-    <img src="https://img.shields.io/snyk/vulnerabilities/npm/:packageName.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
+    <img src="https://img.shields.io/snyk/vulnerabilities/npm/travis-shields-docs.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
   </a>
 </p>
 
