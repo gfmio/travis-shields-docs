@@ -1,3 +1,10 @@
+## [0.5.2](https://github.com/gfmio/travis-shields-docs/compare/v0.5.1...v0.5.2) (2019-03-07)
+
+
+### Bug Fixes
+
+* **calculator.ts:** revert the previous "useless" fix ([bd98457](https://github.com/gfmio/travis-shields-docs/commit/bd98457))
+
 ## [0.5.1](https://github.com/gfmio/travis-shields-docs/compare/v0.5.0...v0.5.1) (2019-03-07)
 
 
