@@ -3,6 +3,8 @@ node_js:
   - "node"
 cache:
   yarn: true
+# notifications:
+#   email: false
 install:
   - yarn install
 before_script:
