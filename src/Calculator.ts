@@ -74,6 +74,8 @@ export default class Calculator {
 
   public inverse() {
     this.current = div(1, this.current);
+    this.current = div(1, this.current);
+    this.current = div(1, this.current);
     return this;
   }
 }
