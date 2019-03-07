@@ -128,7 +128,7 @@
       [
         "@semantic-release/exec",
         {
-          "prepareCmd": "yarn gulp copy-new-version"
+          "prepareCmd": "yarn gulp copy-new-package-version"
         }
       ],
       "@semantic-release/git",
