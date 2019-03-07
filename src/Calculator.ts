@@ -71,4 +71,9 @@ export default class Calculator {
     this.current = Math.tan(this.current);
     return this;
   }
+
+  public inverse() {
+    this.current = div(1, this.current);
+    return this;
+  }
 }

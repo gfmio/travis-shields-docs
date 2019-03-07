@@ -22,4 +22,6 @@ describe("Calculator", () => {
   it("can cos", () => expect(calculator.cos().value()).equal(1));
   // prettier-ignore
   it("can tan", () => expect(calculator.clear().tan().value()).equal(0));
+  // prettier-ignore
+  it("can invert", () => expect(calculator.clear().add(2).inverse().value()).equal(1 / 2));
 });
