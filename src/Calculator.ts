@@ -56,4 +56,9 @@ export default class Calculator {
     this.current = ln(this.current);
     return this;
   }
+
+  public sin() {
+    this.current = Math.sin(this.current);
+    return this;
+  }
 }
