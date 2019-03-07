@@ -60,6 +60,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
+    "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.8",
     "@types/chai": "^4.1.7",
     "@types/gulp": "^4.0.6",
@@ -115,6 +116,7 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
       [
         "@semantic-release/npm",
         {
@@ -123,14 +125,7 @@
           "tarballDir": "./dist"
         }
       ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json"
-          ]
-        }
-      ],
+      "@semantic-release/git",
       [
         "@semantic-release/github",
         {
