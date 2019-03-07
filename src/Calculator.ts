@@ -61,4 +61,9 @@ export default class Calculator {
     this.current = Math.sin(this.current);
     return this;
   }
+
+  public cos() {
+    this.current = Math.cos(this.current);
+    return this;
+  }
 }
