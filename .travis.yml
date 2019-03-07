@@ -3,8 +3,8 @@ node_js:
   - "node"
 cache:
   yarn: true
-# notifications:
-#   email: false
+notifications:
+  email: false
 install:
   - yarn install
 before_script:
@@ -25,4 +25,4 @@ deploy:
     branch: master
   skip_cleanup: true
   script:
-    - npx semantic-release
+    - yarn semantic-release
