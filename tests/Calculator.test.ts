@@ -16,6 +16,7 @@ describe("Calculator", () => {
   it("can ln", () => expect(calculator.ln().value()).equal(1));
 
   it("can clear", () => expect(calculator.clear().value()).equal(0));
+  it("can sin", () => expect(calculator.sin().value()).equal(0));
 
   it("has the correct initial value when no argument is supplied", () => expect(new Calculator().value()).equal(0));
   it("has the correct initial value when an argument is supplied", () => expect(new Calculator(3).value()).equal(3));
