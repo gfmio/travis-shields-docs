@@ -64,9 +64,18 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
     <img src="https://img.shields.io/snyk/vulnerabilities/github/gfmio/travis-shields-docs.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
   </a>
 
-  <!-- Libraries.io -->
-  <a href="https://libraries.io/github/gfmio/travis-shields-docs">
-    <img src="https://img.shields.io/librariesio/github/gfmio/travis-shields-docs.svg" alt="Libraries.io dependency status" title="Libraries.io dependency status" />
+  <!-- David -->
+  <a href="#">
+    <img src="https://img.shields.io/david/gfmio/travis-shields-docs.svg" alt="Dependencies" title="Dependencies" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/david/dev/gfmio/travis-shields-docs.svg" alt="DevDependencies" title="DevDependencies" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/david/optional/gfmio/travis-shields-docs.svg" alt="OptionalDependencies" title="OptionalDependencies" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/david/peer/gfmio/travis-shields-docs.svg" alt="PeerDependencies" title="PeerDependencies" />
   </a>
 
   <!-- Code Climate -->
