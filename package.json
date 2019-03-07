@@ -54,14 +54,13 @@
     "clean:docs": "rimraf ./docs",
     "clean:all": "npm-run-all clean:lib clean:node_modules clean:test clean:docs",
     "commit": "git-cz",
-    "semantic-release": "semantic-release",
-    "postpack": "gulp postpack",
-    "postpublish": "gulp postpublish"
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
     "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/exec": "^3.3.2",
     "@semantic-release/git": "^7.0.8",
     "@types/chai": "^4.1.7",
     "@types/gulp": "^4.0.6",
@@ -124,6 +123,12 @@
           "npmPublish": true,
           "pkgRoot": "./dist",
           "tarballDir": "./dist"
+        }
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "prepareCmd": "yarn gulp copy-new-version"
         }
       ],
       "@semantic-release/git",
