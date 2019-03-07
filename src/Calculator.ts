@@ -66,4 +66,9 @@ export default class Calculator {
     this.current = Math.cos(this.current);
     return this;
   }
+
+  public tan() {
+    this.current = Math.tan(this.current);
+    return this;
+  }
 }
