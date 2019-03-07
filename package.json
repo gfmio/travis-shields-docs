@@ -55,7 +55,8 @@
     "clean:all": "npm-run-all clean:lib clean:node_modules clean:test clean:docs",
     "commit": "git-cz",
     "semantic-release": "semantic-release",
-    "postpublish": "yarn gulp postpublish"
+    "postpack": "gulp postpack",
+    "postpublish": "gulp postpublish"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
