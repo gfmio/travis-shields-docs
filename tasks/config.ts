@@ -8,20 +8,21 @@ export const pkg = _pkg;
 
 // Paths
 
-export const SRC_PATH = path.join(__dirname, "..", "src");
+export const ROOT_PATH = path.join(__dirname, "..");
+export const SRC_PATH = path.join(ROOT_PATH, "src");
 // prettier-ignore
 export const TS_SRC_FILES = [
   path.join(SRC_PATH, "**/*.ts"),
   path.join(SRC_PATH, "**/*.tsx"),
 ];
 export const SRC_ENTRYPOINT = path.join(SRC_PATH, "index.ts");
-export const OUTPUT_PATH = path.join(__dirname, "..", "dist");
+export const OUTPUT_PATH = path.join(ROOT_PATH, "dist");
 
 // TSC config for compiling individual source files
 
 export const TS_SHARED_CONFIG = JSON.parse(
   fs
-    .readFileSync(path.join(__dirname, "..", "tsconfig.json"))
+    .readFileSync(path.join(ROOT_PATH, "tsconfig.json"))
     .toString()
     .split("\n")
     // Filter out all lines that either contain comments or that are empty

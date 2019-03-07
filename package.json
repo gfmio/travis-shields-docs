@@ -1,6 +1,6 @@
 {
   "name": "travis-shields-docs",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A sample project for testing and configuring TravisCI with mocha/chai and status shields",
   "author": "Frédérique Mittelstaedt <git@gfm.io> (www.gfm.io)",
   "license": "MIT",
@@ -54,7 +54,8 @@
     "clean:docs": "rimraf ./docs",
     "clean:all": "npm-run-all clean:lib clean:node_modules clean:test clean:docs",
     "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postpublish": "yarn gulp postpublish"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
@@ -116,18 +117,25 @@
       [
         "@semantic-release/npm",
         {
-          "npmPublish": false,
-          "pkgRoot": "."
+          "npmPublish": true,
+          "pkgRoot": "./dist",
+          "tarballDir": "./dist"
         }
       ],
       [
-        "@semantic-release/npm",
+        "@semantic-release/git",
         {
-          "npmPublish": true,
-          "pkgRoot": "./dist"
+          "assets": [
+            "package.json"
+          ]
         }
       ],
-      "@semantic-release/github"
+      [
+        "@semantic-release/github",
+        {
+          "assets": "dist/*.tgz"
+        }
+      ]
     ]
   }
 }

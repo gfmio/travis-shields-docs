@@ -4,3 +4,4 @@ export { default as readme } from "./license";
 export { default as license } from "./readme";
 export { default as rollup } from "./rollup";
 export { default as tsc } from "./tsc";
+export { default as postpublish } from "./postpublish";
