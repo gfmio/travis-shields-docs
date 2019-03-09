@@ -10,7 +10,7 @@ Finally, please be nice and follow to our [code of conduct](https://github.com/g
 
 ## Issues
 
-...
+... ...
 
 ## Getting started
 
