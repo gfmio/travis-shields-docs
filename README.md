@@ -1,6 +1,6 @@
 # travis-shields-docs
 
-A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](https://travis-ci.com/gfmio/travis-shields-docs) for automatically running the tests, CodeCov and Code Climate for test coverage, code quality and maintainability analysis and showcasing a ton of shields to display all the relevant data.
+This package provides a simple calculator class and several "safe" mathematical operations, in which all undefined or infinite results are replaced with 0. It is a simple educational project using a range of fully-configured and integrated external tools.
 
 <!-- Github -->
 
@@ -145,3 +145,110 @@ A sample TypeScript project using `mocha` and `chai` for testing, [Travis CI](ht
     <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
   </a>
 </p>
+
+## Why
+
+This is a simple educational project to set up and work with a variety of external tooling. Among others, it uses:
+
+- [Gulp](https://gulpjs.com) as a task runner
+- [TypeScript](https://typescriptlang.org) for all source, test, and gulp task files
+- [mocha]() and [chai]() as test libraries, together with the [istanbul / nyc]() test runner
+- Shields from <shields.io> for displaying a range of status info about the repository and package
+- [Travis.CI](https://travis-ci.com) for running tests and deploying new versions of the code
+- [semantic-release]() to publish new versions of the package, when code gets pushed to the master branch and significant changes have occurred
+- [husky]() to run commit hooks
+- [prettier]() is used for auto-formatting the source code and run as a pre-commit hook on all staged changes
+- [commitlint]() is run as a a commit message hook for ensuring that all commit messages follow the [@commitlint/config-conventional]() format
+- [commitizen]() is integrated to provide a helper for writing commit messages adhering to the required format. Instead of using `git commit` to push commits, you use `yarn commit`, which invokes commitizen.
+- [CodeCov]() and [Code Climate]() for health of the source code base
+- [David]() for monitoring if all dependencies are up to date
+- [Snyk]() for monitoring the project for security vulnerabilities
+- [Gitter]() as community chat
+
+The repository also features Github issue templates, a pull request template, a code of conduct and a contributing guideline.
+
+Explore some of the tools above and look at the configuration for each to see how they are used and start using them in your own projects, if they fit your needs.
+
+If you want to suggest changes or additions, find an error or that anything does not work or no longer works, please file an issue or submit a pull request with your suggested changes.
+
+## Install
+
+Install the package from NPM:
+
+```sh
+# If you use yarn
+yarn add travis-shields-docs
+
+# If you use NPM
+npm install travis-shields-docs
+```
+
+## Usage
+
+The package provides a calculator class.
+
+```ts
+import Calculator from "travis-shields-docs";
+const calculator = new Calculator();
+```
+
+You can supply an initial value to the calculator as an argument to its constructor (by default 0).
+
+```ts
+const calculator2 = new Calculator(2);
+```
+
+The current value of the calculator can be accessed using the `value()` method.
+
+```ts
+console.log(calculator.value());
+// Prints 0
+console.log(calculator2.value());
+// Prints 2
+```
+
+`clear()` resets the value in the memory of the calculator to 0. All operations of the calculator, apart from `value()` return the instance, so operations can be chained.
+
+```ts
+console.log(calculator2.clear().value());
+// Prints 0
+```
+
+The calculator provides a range of simple methods, which perform an operation on the value in memory.
+
+```ts
+```
+
+Some mathematical operations are not defined for all values, such as division by 0 or the logarithm of a negative number or 0. In all of these circumstances, the return values are 0.
+
+```ts
+calculator
+  .clear()
+  .add(1)
+  .div(0)
+  .value();
+calculator
+  .clear()
+  .add(1)
+  .mod(0)
+  .value();
+calculator
+  .clear()
+  .sub(1)
+  .ln()
+  .value();
+calculator
+  .clear()
+  .inverse()
+  .value();
+```
+
+These custom "safe" versions of the above operations can be imported as standalone functions from their submodules:
+
+```ts
+import div from "travis-shields-docs/div";
+```
+
+## Contributing
+
+Please check [](Contributing.md) for all details on how to contribute to this project.
