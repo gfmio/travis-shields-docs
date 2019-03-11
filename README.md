@@ -184,6 +184,14 @@ yarn add travis-shields-docs
 npm install travis-shields-docs
 ```
 
+You can also import the package bundle from unpkg by inserting the following script tag in your HTML code.
+
+```html
+<script src="https://unpkg.com/travis-shields-docs/travis-shields-docs.umd.min.js"></script>
+```
+
+The module content will be available as the UMD global `TravisShieldsDocs`.
+
 ## Usage
 
 The package provides a calculator class.
@@ -215,9 +223,31 @@ console.log(calculator2.clear().value());
 // Prints 0
 ```
 
-The calculator provides a range of simple methods, which perform an operation on the value in memory.
+The calculator provides a range of simple mathematical operations, which perform an operation on the value in memory.
 
 ```ts
+// Adds 2 to the current value in memory
+calculator.add(2);
+// Subtracts 1 from the current value in memory
+calculator.sub(1);
+// Multiplies the current value in memory with 2
+calculator.mul(2);
+// Divides the current value in memory by 2
+calculator.div(2);
+// Sets the value in memory to the modulus (remainder) of the current value and 3
+calculator.mod(3);
+// Sets the value in memory to the exponentiated current value
+calculator.exp();
+// Sets the value in memory to the natural logarithm of the current value
+calculator.ln();
+// Sets the value in memory to sine of the current value
+calculator.sin();
+// Sets the value in memory to cosine of the current value
+calculator.cos();
+// Sets the value in memory to tangent of the current value
+calculator.tan();
+// Sets the value to the inverse (1/x) of the current value
+calculator.inverse();
 ```
 
 Some mathematical operations are not defined for all values, such as division by 0 or the logarithm of a negative number or 0. In all of these circumstances, the return values are 0.
@@ -228,28 +258,50 @@ calculator
   .add(1)
   .div(0)
   .value();
+// Returns 0
 calculator
   .clear()
   .add(1)
   .mod(0)
   .value();
+// Returns 0
 calculator
   .clear()
   .sub(1)
   .ln()
   .value();
+// Returns 0
 calculator
   .clear()
   .inverse()
   .value();
+// Returns 0
 ```
 
-These custom "safe" versions of the above operations can be imported as standalone functions from their submodules:
+You can also import some operations as standalone functions from their submodules:
 
 ```ts
+import add from "travis-shields-docs/add";
+import sub from "travis-shields-docs/sub";
+import mul from "travis-shields-docs/mul";
 import div from "travis-shields-docs/div";
+import mod from "travis-shields-docs/mod";
+import ln from "travis-shields-docs/ln";
+
+console.log(add(1, 1));
+// Prints 2
+console.log(sub(1, 1));
+// Prints 0
+console.log(mul(2, 2));
+// Prints 4
+console.log(div(6, 3));
+// Prints 2
+console.log(mod(6, 4));
+// Prints 2
+console.log(ln(1));
+// Prints 0
 ```
 
 ## Contributing
 
-Please check [](Contributing.md) for all details on how to contribute to this project.
+Please check [CONTRIBUTING.md](Contributing.md) for all details on how to contribute to this project.
