@@ -1,6 +1,6 @@
 {
   "name": "example-calculator",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "A simple calculator package developed as an examplary, educational open source project using a range of libraries and external tools",
   "author": "Frédérique Mittelstaedt <git@gfm.io> (www.gfm.io)",
   "license": "MIT",
@@ -29,9 +29,7 @@
     "type": "git",
     "url": "git+https://github.com/gfmio/example-calculator.git"
   },
-  "bugs": {
-    "url": "https://github.com/gfmio/example-calculator/issues"
-  },
+  "bugs": { "url": "https://github.com/gfmio/example-calculator/issues" },
   "homepage": "https://github.com/gfmio/example-calculator#readme",
   "scripts": {
     "gulp": "gulp",
@@ -106,11 +104,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
+  "commitlint": { "extends": ["@commitlint/config-conventional"] },
   "release": {
     "branch": "master",
     "plugins": [
@@ -119,25 +113,14 @@
       "@semantic-release/changelog",
       [
         "@semantic-release/npm",
-        {
-          "npmPublish": true,
-          "pkgRoot": "./dist",
-          "tarballDir": "./dist"
-        }
+        { "npmPublish": true, "pkgRoot": "./dist", "tarballDir": "./dist" }
       ],
       [
         "@semantic-release/exec",
-        {
-          "prepareCmd": "yarn gulp copy-new-package-version"
-        }
+        { "prepareCmd": "yarn gulp copy-new-package-version" }
       ],
       "@semantic-release/git",
-      [
-        "@semantic-release/github",
-        {
-          "assets": "dist/*.tgz"
-        }
-      ]
+      ["@semantic-release/github", { "assets": "dist/*.tgz" }]
     ]
   }
 }
