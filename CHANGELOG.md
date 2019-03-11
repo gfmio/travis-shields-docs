@@ -1,3 +1,10 @@
+## [0.5.3](https://github.com/gfmio/travis-shields-docs/compare/v0.5.2...v0.5.3) (2019-03-11)
+
+
+### Reverts
+
+* "chore(pull_request_template.md): move to .github/PULL_REQUEST_TEMPLATE" ([8b99a89](https://github.com/gfmio/travis-shields-docs/commit/8b99a89))
+
 ## [0.5.2](https://github.com/gfmio/travis-shields-docs/compare/v0.5.1...v0.5.2) (2019-03-07)
 
 

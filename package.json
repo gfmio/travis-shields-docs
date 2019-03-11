@@ -1,6 +1,6 @@
 {
   "name": "travis-shields-docs",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "A sample project for testing and configuring TravisCI with mocha/chai and status shields",
   "author": "Frédérique Mittelstaedt <git@gfm.io> (www.gfm.io)",
   "license": "MIT",
