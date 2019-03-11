@@ -132,7 +132,7 @@ This package provides a simple calculator class and several "safe" mathematical 
   <a href="#">
     <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/example-calculator.svg" alt="" title="" />
   </a>
-  <a href="https://gitter.im/example-calculator">
+  <a href="https://gitter.im/gfmio/example-calculator">
     <img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/gfmio/example-calculator.svg">
   </a>
   <a href="https://twitter.com/acdlite/status/974390255393505280">
