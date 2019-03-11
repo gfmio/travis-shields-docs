@@ -1,6 +1,6 @@
 # example-calculator
 
-This package provides a simple calculator class and several "safe" mathematical operations, in which all undefined or infinite results are replaced with 0. It is a simple educational project using a range of fully-configured and integrated external tools.
+This package provides a simple calculator class and several "safe" mathematical operations, in which all undefined or infinite results are replaced with 0. It is a simple educational project using a range of fully-configured and integrated external tools. x
 
 <!-- Github -->
 
