@@ -304,4 +304,4 @@ console.log(ln(1));
 
 ## Contributing
 
-Please check [CONTRIBUTING.md](Contributing.md) for all details on how to contribute to this project.
+Please check [CONTRIBUTING.md](CONTRIBUTING.md) for all details on how to contribute to this project.
