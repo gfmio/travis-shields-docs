@@ -1,3 +1,10 @@
+## [0.5.5](https://github.com/gfmio/example-calculator/compare/v0.5.4...v0.5.5) (2019-03-11)
+
+
+### Bug Fixes
+
+* fix merge conflict ([b500248](https://github.com/gfmio/example-calculator/commit/b500248))
+
 ## [0.5.4](https://github.com/gfmio/example-calculator/compare/v0.5.3...v0.5.4) (2019-03-11)
 
 ### Reverts
