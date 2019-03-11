@@ -1,3 +1,9 @@
+## [0.5.4](https://github.com/gfmio/example-calculator/compare/v0.5.3...v0.5.4) (2019-03-11)
+
+### Reverts
+
+- "chore(readme.md): sample addition" ([e791103](https://github.com/gfmio/example-calculator/commit/e791103))
+
 ## [0.5.3](https://github.com/gfmio/example-calculator/compare/v0.5.2...v0.5.3) (2019-03-11)
 
 ### Reverts
