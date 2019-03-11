@@ -1,7 +1,7 @@
 {
   "name": "example-calculator",
   "version": "0.5.3",
-  "description": "A simple calculator package developed as an examplary, educational open source project using a range of libraries and external tools",
+  "description": "A simple calculator package developed as an exemplary, educational project using a range of libraries and external tools",
   "author": "Frédérique Mittelstaedt <git@gfm.io> (www.gfm.io)",
   "license": "MIT",
   "main": "dist/index.js",
