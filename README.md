@@ -148,24 +148,25 @@ This package provides a simple calculator class and several "safe" mathematical 
 
 ## Why
 
-This is a simple educational project to set up and work with a variety of external tooling. Among others, it uses:
+This is a simple educational project to set up and work with a variety of libraries and external tools. Among others, it uses:
 
-- [Gulp](https://gulpjs.com) as a task runner
+- the [Gulp](https://gulpjs.com) task runner and build system
 - [TypeScript](https://typescriptlang.org) for all source, test, and gulp task files
-- [mocha]() and [chai]() as test libraries, together with the [istanbul / nyc]() test runner
-- Shields from <shields.io> for displaying a range of status info about the repository and package
-- [Travis.CI](https://travis-ci.com) for running tests and deploying new versions of the code
-- [semantic-release]() to publish new versions of the package, when code gets pushed to the master branch and significant changes have occurred
-- [husky]() to run commit hooks
-- [prettier]() is used for auto-formatting the source code and run as a pre-commit hook on all staged changes
-- [commitlint]() is run as a a commit message hook for ensuring that all commit messages follow the [@commitlint/config-conventional]() format
-- [commitizen]() is integrated to provide a helper for writing commit messages adhering to the required format. Instead of using `git commit` to push commits, you use `yarn commit`, which invokes commitizen.
-- [CodeCov]() and [Code Climate]() for health of the source code base
-- [David]() for monitoring if all dependencies are up to date
-- [Snyk]() for monitoring the project for security vulnerabilities
-- [Gitter]() as community chat
+- the [rollup](https://rollupjs.org) module bundler
+- the [mocha](https://mochajs.org/) test framework, [chai](https://www.chaijs.com/) assertion library and [istanbul](https://istanbul.js.org) code coverage tool with its [nyc](https://www.npmjs.com/package/nyc) command line interface
+- [Travis.CI](https://travis-ci.com) for continuous integration (running tests and deploying new package versions)
+- [CodeCov](https://codecov.io) and [Code Climate](http://codeclimate.com) for monitoring monitoring code coverage and watching the codebase for code smells
+- [semantic-release](https://semantic-release.gitbook.io/) to release new versions of the package, when code gets pushed to the master branch and significant changes have occurred, and for generating the changelog
+- [husky](https://www.npmjs.com/package/husky) to run commit hooks
+- [prettier](https://prettier.io/) for auto-formatting the source code (run as a pre-commit hook on all staged changes)
+- [commitlint](https://conventional-changelog.github.io/commitlint/) for ensuring that all commit messages follow the same format (run as a a commit message hook)
+- [commitizen](http://commitizen.github.io/cz-cli/) for writing commit messages adhering to the required format. Instead of using `git commit` to push commits, you use `yarn commit`, which invokes commitizen.
+- Shields from [shields.io](https://shields.io) for displaying a range of status info about the repository and package
+- [David](https://david-dm.org) for monitoring if all dependencies are up to date
+- [Snyk](https://snyk.io/) for monitoring the project for security vulnerabilities
+- [Gitter](https://gitter.im) as community chat
 
-The repository also features Github issue templates, a pull request template, a code of conduct and a contributing guideline.
+The repository also features Github issue templates, a pull request template, a [code of conduct](CODE_OF_CONDUCT.md) and a [contributing guideline](CONTRIBUTING.md).
 
 Explore some of the tools above and look at the configuration for each to see how they are used and start using them in your own projects, if they fit your needs.
 
