@@ -86,4 +86,9 @@ export default class Calculator {
     this.current = Math.cosh(this.current);
     return this;
   }
+
+  public tanh() {
+    this.current = Math.tanh(this.current);
+    return this;
+  }
 }
