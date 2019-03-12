@@ -1,4 +1,5 @@
 # example-calculator
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 This package provides a simple calculator class and several "safe" mathematical operations, in which all undefined or infinite results are replaced with 0. It is a simple educational project using a range of fully-configured and integrated external tools.
 
@@ -305,3 +306,15 @@ console.log(ln(1));
 ## Contributing
 
 Please check [CONTRIBUTING.md](CONTRIBUTING.md) for all details on how to contribute to this project.
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars1.githubusercontent.com/u/2878342?v=4" width="100px;" alt="Frédérique Mittelstaedt"/><br /><sub><b>Frédérique Mittelstaedt</b></sub>](https://www.gfm.io)<br />[📖](https://github.com/gfmio/example-calculator/commits?author=gfmio "Documentation") [⚠️](https://github.com/gfmio/example-calculator/commits?author=gfmio "Tests") [💻](https://github.com/gfmio/example-calculator/commits?author=gfmio "Code") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
