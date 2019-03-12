@@ -6,42 +6,42 @@ This package provides a simple calculator class and several "safe" mathematical 
 
 <p align="center">
   <!-- License -->
-  <a href="./LICENSE">
+  <a href="https://github.com/gfmio/example-calculator/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/gfmio/example-calculator.svg" alt="Github license" title="Github license" />
   </a>
   
   <!-- Open issues -->
-  <a href="../../issues">
+  <a href="https://github.com/gfmio/example-calculator/issues">
     <img src="https://img.shields.io/github/issues/gfmio/example-calculator.svg" alt="Open issues" title="Open issues" /
   </a>
   
   <!-- Closed issues -->
-  <a href="../../issues?utf8=✓&q=is%3Aissue+is%3Aclosed">
+  <a href="https://github.com/gfmio/example-calculator/issues?utf8=✓&q=is%3Aissue+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-closed/gfmio/example-calculator.svg" alt="Closed issues" title="Closed issues" />
   </a>
   
   <!-- Open Pull Requests -->
-  <a href="../../pulls">
+  <a href="https://github.com/gfmio/example-calculator/pulls">
     <img src="https://img.shields.io/github/issues-pr/gfmio/example-calculator.svg" alt="Open Pull Requests" title="Open Pull Requests" />
   </a>
   
   <!-- Closed Pull Requests -->
-  <a href="../../pulls?utf8=✓&q=is%3Apr+is%3Aclosed">
+  <a href="https://github.com/gfmio/example-calculator/pulls?utf8=✓&q=is%3Apr+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-pr-closed/gfmio/example-calculator.svg" alt="Closed Pull Requests" title="Closed Pull Requests" />
   </a>
   
   <!-- Commit activity -->
-  <a href="../../graphs/commit-activity">
+  <a href="https://github.com/gfmio/example-calculator/graphs/commit-activity">
     <img src="https://img.shields.io/github/commit-activity/m/gfmio/example-calculator.svg" alt="Commit activity" title="Commit activity" />
   </a>
   
   <!-- Contributors -->
-  <a href="../../graphs/contributors">
+  <a href="https://github.com/gfmio/example-calculator/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/gfmio/example-calculator.svg" alt="Github contributors" title="Github contributors" />
   </a>
   
   <!-- Last commit -->
-  <a href="../../commits/master">
+  <a href="https://github.com/gfmio/example-calculator/commits/master">
     <img src="https://img.shields.io/github/last-commit/gfmio/example-calculator.svg" alt="Last commit" title="Last commit" />
   </a>
 </p>
@@ -304,4 +304,23 @@ console.log(ln(1));
 
 ## Contributing
 
-Please check [CONTRIBUTING.md](CONTRIBUTING.md) for all details on how to contribute to this project.
+Please read [CODE_OF_CODUCT.md] for details on our code of conduct and [CONTRIBUTING.md](CONTRIBUTING.md) for all details on how to contribute to this project (with code or otherwise) and and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. Releases are generated using [semantic-release](https://semantic-release.gitbook.io). For the versions available, see the [tags](https://github.com/gfmio/example-calculator/tags) on this repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## Acknowledgments
+
+- This project has taken some inspiration from [typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) by @alexjoverm
+- The README and Contributing files have taken inspiration from [these](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) [gists](https://gist.github.com/PurpleBooth/b24679402957c63ec426) by @PurpleBooth and the contributing guidelines from [phly](https://github.com/phly/http/blob/master/CONTRIBUTING.md) and [akka](https://github.com/akka/akka-http/blob/master/CONTRIBUTING.md).
+
+## Authors
+
+- Frédérique Mittelstaedt (@gfmio) - Initial work
+
+See also the list of contributors who participated in this project.
