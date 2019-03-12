@@ -76,4 +76,9 @@ export default class Calculator {
     this.current = div(1, this.current);
     return this;
   }
+
+  public sinh() {
+    this.current = Math.sinh(this.current);
+    return this;
+  }
 }
