@@ -56,4 +56,4 @@ export const ROLLUP_TS_OVERRIDE_CONFIG = {
 };
 
 export const ROLLUP_BUNDLE_BASENAME = pkg.name;
-export const ROLLUP_UMD_NAME = "TravisShieldsDocs";
+export const ROLLUP_UMD_NAME = "exampleCalculator";

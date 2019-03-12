@@ -7,42 +7,42 @@ This package provides a simple calculator class and several "safe" mathematical 
 
 <p align="center">
   <!-- License -->
-  <a href="./LICENSE">
+  <a href="https://github.com/gfmio/example-calculator/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/gfmio/example-calculator.svg" alt="Github license" title="Github license" />
   </a>
   
   <!-- Open issues -->
-  <a href="../../issues">
+  <a href="https://github.com/gfmio/example-calculator/issues">
     <img src="https://img.shields.io/github/issues/gfmio/example-calculator.svg" alt="Open issues" title="Open issues" /
   </a>
   
   <!-- Closed issues -->
-  <a href="../../issues?utf8=✓&q=is%3Aissue+is%3Aclosed">
+  <a href="https://github.com/gfmio/example-calculator/issues?utf8=✓&q=is%3Aissue+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-closed/gfmio/example-calculator.svg" alt="Closed issues" title="Closed issues" />
   </a>
   
   <!-- Open Pull Requests -->
-  <a href="../../pulls">
+  <a href="https://github.com/gfmio/example-calculator/pulls">
     <img src="https://img.shields.io/github/issues-pr/gfmio/example-calculator.svg" alt="Open Pull Requests" title="Open Pull Requests" />
   </a>
   
   <!-- Closed Pull Requests -->
-  <a href="../../pulls?utf8=✓&q=is%3Apr+is%3Aclosed">
+  <a href="https://github.com/gfmio/example-calculator/pulls?utf8=✓&q=is%3Apr+is%3Aclosed">
     <img src="https://img.shields.io/github/issues-pr-closed/gfmio/example-calculator.svg" alt="Closed Pull Requests" title="Closed Pull Requests" />
   </a>
   
   <!-- Commit activity -->
-  <a href="../../graphs/commit-activity">
+  <a href="https://github.com/gfmio/example-calculator/graphs/commit-activity">
     <img src="https://img.shields.io/github/commit-activity/m/gfmio/example-calculator.svg" alt="Commit activity" title="Commit activity" />
   </a>
   
   <!-- Contributors -->
-  <a href="../../graphs/contributors">
+  <a href="https://github.com/gfmio/example-calculator/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/gfmio/example-calculator.svg" alt="Github contributors" title="Github contributors" />
   </a>
   
   <!-- Last commit -->
-  <a href="../../commits/master">
+  <a href="https://github.com/gfmio/example-calculator/commits/master">
     <img src="https://img.shields.io/github/last-commit/gfmio/example-calculator.svg" alt="Last commit" title="Last commit" />
   </a>
 </p>
@@ -133,7 +133,7 @@ This package provides a simple calculator class and several "safe" mathematical 
   <a href="#">
     <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/example-calculator.svg" alt="" title="" />
   </a>
-  <a href="https://gitter.im/example-calculator">
+  <a href="https://gitter.im/gfmio/example-calculator">
     <img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/gfmio/example-calculator.svg">
   </a>
   <a href="https://twitter.com/acdlite/status/974390255393505280">
@@ -156,11 +156,11 @@ This is a simple educational project to set up and work with a variety of librar
 - the [rollup](https://rollupjs.org) module bundler
 - the [mocha](https://mochajs.org/) test framework, [chai](https://www.chaijs.com/) assertion library and [istanbul](https://istanbul.js.org) code coverage tool with its [nyc](https://www.npmjs.com/package/nyc) command line interface
 - [Travis.CI](https://travis-ci.com) for continuous integration (running tests and deploying new package versions)
-- [CodeCov](https://codecov.io) and [Code Climate](http://codeclimate.com) for monitoring monitoring code coverage and watching the codebase for code smells
+- [CodeCov](https://codecov.io) and [Code Climate](http://codeclimate.com) for monitoring code coverage and watching the codebase for code smells
 - [semantic-release](https://semantic-release.gitbook.io/) to release new versions of the package, when code gets pushed to the master branch and significant changes have occurred, and for generating the changelog
 - [husky](https://www.npmjs.com/package/husky) to run commit hooks
 - [prettier](https://prettier.io/) for auto-formatting the source code (run as a pre-commit hook on all staged changes)
-- [commitlint](https://conventional-changelog.github.io/commitlint/) for ensuring that all commit messages follow the same format (run as a a commit message hook)
+- [commitlint](https://conventional-changelog.github.io/commitlint/) for ensuring that all commit messages follow the same format (run as a commit message hook)
 - [commitizen](http://commitizen.github.io/cz-cli/) for writing commit messages adhering to the required format. Instead of using `git commit` to push commits, you use `yarn commit`, which invokes commitizen.
 - Shields from [shields.io](https://shields.io) for displaying a range of status info about the repository and package
 - [David](https://david-dm.org) for monitoring if all dependencies are up to date
@@ -191,7 +191,7 @@ You can also import the package bundle from unpkg by inserting the following scr
 <script src="https://unpkg.com/example-calculator/example-calculator.umd.min.js"></script>
 ```
 
-The module content will be available as the UMD global `TravisShieldsDocs`.
+The module content will be available as the UMD global `exampleCalculator`.
 
 ## Usage
 
@@ -305,7 +305,26 @@ console.log(ln(1));
 
 ## Contributing
 
-Please check [CONTRIBUTING.md](CONTRIBUTING.md) for all details on how to contribute to this project.
+Please read [CODE_OF_CODUCT.md](https://github.com/gfmio/example-calculator/blob/master/CODE_OF_CODUCT.md) for details on our code of conduct and [CONTRIBUTING.md](https://github.com/gfmio/example-calculator/blob/master/CONTRIBUTING.md) for all details on how to contribute to this project (with code or otherwise) and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. Releases are generated using [semantic-release](https://semantic-release.gitbook.io). For the versions available, see the [tags](https://github.com/gfmio/example-calculator/tags) on this repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gfmio/example-calculator/blob/master/LICENSE) file for details.
+
+## Acknowledgments
+
+- This project has taken some inspiration from [typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) by [@alexjoverm](https://github.com/alexjoverm)
+- The README and CONTRIBUTING files have taken inspiration from [these](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) [gists](https://gist.github.com/PurpleBooth/b24679402957c63ec426) by [@PurpleBooth](https://github.com/PurpleBooth) and the contributing guidelines from [phly](https://github.com/phly/http/blob/master/CONTRIBUTING.md) and [akka](https://github.com/akka/akka-http/blob/master/CONTRIBUTING.md).
+
+## Authors
+
+- Frédérique Mittelstaedt ([@gfmio](https://github.com/gfmio)) - Initial work
+
+See also the list of contributors who participated in this project.
 
 ## Contributors
 
