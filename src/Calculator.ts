@@ -94,5 +94,6 @@ export default class Calculator {
 
   public asin() {
     this.current = Math.asin(this.current);
+    return this;
   }
 }
