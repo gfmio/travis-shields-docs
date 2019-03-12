@@ -1,5 +1,4 @@
 # example-calculator
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 This package provides a simple calculator class and several "safe" mathematical operations, in which all undefined or infinite results are replaced with 0. It is a simple educational project using a range of fully-configured and integrated external tools.
 
@@ -121,7 +120,7 @@ This package provides a simple calculator class and several "safe" mathematical 
   
   <a href="#">
     <img src="https://img.shields.io/snyk/vulnerabilities/npm/example-calculator.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
-  </a>
+  </a>  
 </p>
 
 <!-- Misc -->
@@ -145,7 +144,12 @@ This package provides a simple calculator class and several "safe" mathematical 
   <a href="#">
     <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
   </a>
+  <a href="#contributors">
+    <img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-1-orange.svg">
+  </a>
 </p>
+
+<!--[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors) -->
 
 ## Why
 
