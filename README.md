@@ -170,6 +170,8 @@ This is a simple educational project to set up and work with a variety of librar
 - [David](https://david-dm.org) for monitoring if all dependencies are up to date
 - [Snyk](https://snyk.io/) for monitoring the project for security vulnerabilities
 - [Gitter](https://gitter.im) as community chat
+- [typedoc](https://typedoc.org/) for generating documentation
+- [gh-pages](https://www.npmjs.com/package/gh-pages) for pushing the documentation to Github pages. It is accessible at <https://gfmio.github.io/example-calculator>.
 
 The repository also features Github issue templates, a pull request template, a [code of conduct](CODE_OF_CONDUCT.md) and a [contributing guideline](CONTRIBUTING.md).
 

@@ -54,7 +54,8 @@
     "clean:docs": "rimraf ./docs",
     "clean:all": "npm-run-all clean:lib clean:node_modules clean:test clean:docs",
     "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "gh-pages": "touch docs/.nojekyll && gh-pages -t -d ./docs"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
@@ -75,6 +76,7 @@
     "commitizen": "^3.0.7",
     "cz-conventional-changelog": "^2.1.0",
     "del": "^4.0.0",
+    "gh-pages": "^2.0.1",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.1",
     "gulp-debug": "^4.0.0",
@@ -128,7 +130,8 @@
       [
         "@semantic-release/exec",
         {
-          "prepareCmd": "yarn gulp copy-new-package-version"
+          "prepareCmd": "yarn gulp copy-new-package-version",
+          "successCmd": "yarn docs && yarn gh-pages"
         }
       ],
       "@semantic-release/git",
