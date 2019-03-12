@@ -155,11 +155,11 @@ This is a simple educational project to set up and work with a variety of librar
 - the [rollup](https://rollupjs.org) module bundler
 - the [mocha](https://mochajs.org/) test framework, [chai](https://www.chaijs.com/) assertion library and [istanbul](https://istanbul.js.org) code coverage tool with its [nyc](https://www.npmjs.com/package/nyc) command line interface
 - [Travis.CI](https://travis-ci.com) for continuous integration (running tests and deploying new package versions)
-- [CodeCov](https://codecov.io) and [Code Climate](http://codeclimate.com) for monitoring monitoring code coverage and watching the codebase for code smells
+- [CodeCov](https://codecov.io) and [Code Climate](http://codeclimate.com) for monitoring code coverage and watching the codebase for code smells
 - [semantic-release](https://semantic-release.gitbook.io/) to release new versions of the package, when code gets pushed to the master branch and significant changes have occurred, and for generating the changelog
 - [husky](https://www.npmjs.com/package/husky) to run commit hooks
 - [prettier](https://prettier.io/) for auto-formatting the source code (run as a pre-commit hook on all staged changes)
-- [commitlint](https://conventional-changelog.github.io/commitlint/) for ensuring that all commit messages follow the same format (run as a a commit message hook)
+- [commitlint](https://conventional-changelog.github.io/commitlint/) for ensuring that all commit messages follow the same format (run as a commit message hook)
 - [commitizen](http://commitizen.github.io/cz-cli/) for writing commit messages adhering to the required format. Instead of using `git commit` to push commits, you use `yarn commit`, which invokes commitizen.
 - Shields from [shields.io](https://shields.io) for displaying a range of status info about the repository and package
 - [David](https://david-dm.org) for monitoring if all dependencies are up to date
@@ -190,7 +190,7 @@ You can also import the package bundle from unpkg by inserting the following scr
 <script src="https://unpkg.com/example-calculator/example-calculator.umd.min.js"></script>
 ```
 
-The module content will be available as the UMD global `TravisShieldsDocs`.
+The module content will be available as the UMD global `exampleCalculator`.
 
 ## Usage
 
@@ -304,7 +304,7 @@ console.log(ln(1));
 
 ## Contributing
 
-Please read [CODE_OF_CODUCT.md] for details on our code of conduct and [CONTRIBUTING.md](CONTRIBUTING.md) for all details on how to contribute to this project (with code or otherwise) and and the process for submitting pull requests to us.
+Please read [CODE_OF_CODUCT.md](https://github.com/gfmio/example-calculator/blob/master/CODE_OF_CODUCT.md) for details on our code of conduct and [CONTRIBUTING.md](https://github.com/gfmio/example-calculator/blob/master/CONTRIBUTING.md) for all details on how to contribute to this project (with code or otherwise) and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -312,15 +312,15 @@ We use [SemVer](http://semver.org/) for versioning. Releases are generated using
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gfmio/example-calculator/blob/master/LICENSE) file for details.
 
 ## Acknowledgments
 
-- This project has taken some inspiration from [typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) by @alexjoverm
-- The README and Contributing files have taken inspiration from [these](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) [gists](https://gist.github.com/PurpleBooth/b24679402957c63ec426) by @PurpleBooth and the contributing guidelines from [phly](https://github.com/phly/http/blob/master/CONTRIBUTING.md) and [akka](https://github.com/akka/akka-http/blob/master/CONTRIBUTING.md).
+- This project has taken some inspiration from [typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) by [@alexjoverm](https://github.com/alexjoverm)
+- The README and CONTRIBUTING files have taken inspiration from [these](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) [gists](https://gist.github.com/PurpleBooth/b24679402957c63ec426) by [@PurpleBooth](https://github.com/PurpleBooth) and the contributing guidelines from [phly](https://github.com/phly/http/blob/master/CONTRIBUTING.md) and [akka](https://github.com/akka/akka-http/blob/master/CONTRIBUTING.md).
 
 ## Authors
 
-- Frédérique Mittelstaedt (@gfmio) - Initial work
+- Frédérique Mittelstaedt ([@gfmio](https://github.com/gfmio)) - Initial work
 
 See also the list of contributors who participated in this project.

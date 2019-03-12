@@ -2,7 +2,7 @@
 
 Welcome and Thank you for contributing to this project!
 
-Please note we have a [code of conduct](https://github.com/gfmio/example-calculator/blob/master/CODE_OF_CONDUCT.md). PLease follow it in all your interactions with the project and be respectful to all members of the community at all times.
+Please note we have a [code of conduct](https://github.com/gfmio/example-calculator/blob/master/CODE_OF_CONDUCT.md). Please follow it in all your interactions with the project and be respectful to all members of the community at all times.
 
 - Please suggest **enhancements**, report **bugs** or other **issues** at <https://github.com/gfmio/example-calculator/issues> using the provided issue templates. Before submitting an issue, please check if a similar issues has already been submitted previously.
 - Please do not report **security-related issues** publicly, but rather via email to <git@gfm.io> (PGP-encrypted, if at all possible).
@@ -66,11 +66,9 @@ You can use `commitizen` to create messages in the right format. Instead of comm
 
 ### Build process
 
-We use `gulp` to orchestrate the build process.
+We use [gulp](https://gulpjs.com) to orchestrate the build process.
 
-Internally, gulp invokes the TypeScript compiler to transpile each file, once targeting `es3` with module format `commonjs` and once using target `esnext` and module format `esnext`.
-
-The former generate `.js` files, the latter `.mjs` files. Both produce source maps (`.js.map` and `.mjs.map`). And finally, the compiler generates TypeScript declarations (`d.ts`) and declaration maps (`.d.ts.map`).
+Internally, gulp invokes the TypeScript compiler to transpile each file, once generating `.js` files with target `es3` and module format `commonjs` and once generating `.mjs` files with target `esnext` and module format `esnext`. Both produce source maps (`.js.map` and `.mjs.map`). And finally, the compiler generates TypeScript declarations (`d.ts`) and declaration maps (`.d.ts.map`).
 
 Hence, a single file (`sample.ts`) will generate six output files:
 
@@ -83,11 +81,11 @@ Hence, a single file (`sample.ts`) will generate six output files:
 
 The package structure is flattened, so that `src/sample.ts` will generate files directly in the package root directory (`dist`). The build process copies the `LICENSE` file and generates a `package.json` in `dist`.
 
-Additionally, `rollup` generates three tree-shaken, bundled versions of the entire package as well as three minified versions, each with their own source map, which get placed in the package root (`dist`).
+Additionally, `rollup` generates three tree-shaken, bundled versions of the entire package as well as three minified versions, each with their own source map, which get placed in the package root (`dist`):
 
-- CommonJS: `<packageName>.js` and its source map `<packageName>.js.map`, `<packageName>.min.js` and its source map `<packageName>.min.js.map`
-- ESM: `<packageName>.mjs` and its source map `<packageName>.mjs.map`, `<packageName>.min.mjs` and its source map `<packageName>.min.mjs.map`
-- UMD: `<packageName>.umd.js` and its source map `<packageName>.umd.js.map`, `<packageName>.umd.min.js` and its source map `<packageName>.umd.min.js.map`
+- CommonJS: `<packageName>.js`, `<packageName>.js.map`, `<packageName>.min.js` and `<packageName>.min.js.map`
+- ESM: `<packageName>.mjs`, `<packageName>.mjs.map`, `<packageName>.min.mjs` and `<packageName>.min.mjs.map`
+- UMD: `<packageName>.umd.js`, `<packageName>.umd.js.map`, `<packageName>.umd.min.js` and `<packageName>.umd.min.js.map`
 
 ### Tests
 
@@ -97,8 +95,8 @@ You can run the tests using `yarn test`.
 
 ### Continuous integration
 
-All pull requests and commits to the repository trigger automatic builds on Travis.CI.
+All pull requests and commits to the repository trigger automatic builds on [Travis.CI](https://travis-ci.com/gfmio/example-calculator).
 
 Commits to `master` trigger `semantic-release`, which generates the changelog, increases the package version and releases the package.
 
-The test coverage reports are submitted to CodeCov and Code Climate.
+The test coverage reports are submitted to [CodeCov](https://codecov.io/gh/gfmio/example-calculator) and [Code Climate](https://codeclimate.com/github/gfmio/example-calculator).
