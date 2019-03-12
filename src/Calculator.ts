@@ -76,4 +76,19 @@ export default class Calculator {
     this.current = div(1, this.current);
     return this;
   }
+
+  public sinh() {
+    this.current = Math.sinh(this.current);
+    return this;
+  }
+
+  public cosh() {
+    this.current = Math.cosh(this.current);
+    return this;
+  }
+
+  public tanh() {
+    this.current = Math.tanh(this.current);
+    return this;
+  }
 }

@@ -18,10 +18,20 @@ describe("Calculator", () => {
   it("can exp", () => expect(calculator.sub(1).exp().value()).equal(Math.E));
   it("can ln", () => expect(calculator.ln().value()).equal(1));
   it("can clear", () => expect(calculator.clear().value()).equal(0));
-  it("can sin", () => expect(calculator.sin().value()).equal(0));
-  it("can cos", () => expect(calculator.cos().value()).equal(1));
+
+  // prettier-ignore
+  it("can invert", () => expect(calculator.clear().add(2).inverse().value()).equal(1 / 2));
+
+  // prettier-ignore
+  it("can sin", () => expect(calculator.clear().sin().value()).equal(0));
+  // prettier-ignore
+  it("can cos", () => expect(calculator.clear().cos().value()).equal(1));
   // prettier-ignore
   it("can tan", () => expect(calculator.clear().tan().value()).equal(0));
   // prettier-ignore
-  it("can invert", () => expect(calculator.clear().add(2).inverse().value()).equal(1 / 2));
+  it("can sinh", () => expect(calculator.clear().sinh().value()).equal(0));
+  // prettier-ignore
+  it("can cosh", () => expect(calculator.clear().cosh().value()).equal(1));
+  // prettier-ignore
+  it("can tanh", () => expect(calculator.clear().tanh().value()).equal(0));
 });
