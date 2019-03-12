@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/gfmio/example-calculator/compare/v0.5.5...v0.6.0) (2019-03-12)
+
+
+### Features
+
+* **calculator.ts:** add cosh method ([c6a9ae9](https://github.com/gfmio/example-calculator/commit/c6a9ae9))
+* **calculator.ts:** add sinh method ([597cd08](https://github.com/gfmio/example-calculator/commit/597cd08))
+* **calculator.ts:** add tanh method ([af4f3d6](https://github.com/gfmio/example-calculator/commit/af4f3d6))
+
 ## [0.5.5](https://github.com/gfmio/example-calculator/compare/v0.5.4...v0.5.5) (2019-03-11)
 
 
