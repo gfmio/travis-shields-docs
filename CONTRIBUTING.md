@@ -2,15 +2,15 @@
 
 Welcome and Thank you for contributing to this project!
 
+Please note we have a [code of conduct](https://github.com/gfmio/example-calculator/blob/master/CODE_OF_CONDUCT.md). PLease follow it in all your interactions with the project and be respectful to all members of the community at all times.
+
 - Please suggest **enhancements**, report **bugs** or other **issues** at <https://github.com/gfmio/example-calculator/issues> using the provided issue templates. Before submitting an issue, please check if a similar issues has already been submitted previously.
 - Please do not report **security-related issues** publicly, but rather via email to <git@gfm.io> (PGP-encrypted, if at all possible).
 - We follow the standard GitHub [fork & pull](https://help.github.com/articles/using-pull-requests/#fork--pull) approach to pull requests. Just fork the official repo, develop in a branch, and submit a PR at <https://github.com/gfmio/example-calculator/pulls>!
 
-Finally, please be respectful to all members of the community at all times and follow to our [code of conduct](https://github.com/gfmio/example-calculator/blob/master/CODE_OF_CONDUCT.md).
-
 ## Community
 
-In case of questions about the contribution process or for discussion of specific issues please visit the [dev gitter chat](https://gitter.im/XYZ/dev).
+In case of questions about the contribution process or for discussion of specific issues please visit the [gitter chat](https://gitter.im/gfmio/example-calculator).
 
 If you don't have previous open source experience or experience contributing to this project, have a look at issues tagged [good first issue](https://github.com/gfmio/example-calculator/labels/good%20first%20issue). They are typically small, self-contained and an easy way to get started with contributions.
 
@@ -25,7 +25,7 @@ You don't need to code to contribute to this project. For example, you can:
 - organise an event about this project
 - contribute any other ideas you may have :)
 
-If appropriate, please file an issue and outline what you'd like to do. If you're unsure, you can also post a message on [Gitter](https://gitter.im/XYZ).
+If appropriate, please file an issue and outline what you'd like to do. If you're unsure, you can also post a message on [Gitter](https://gitter.im/gfmio/example-calculator).
 
 If you're contributing a small fix, please file an issue and ideally a correcting pull request.
 
@@ -83,15 +83,17 @@ Hence, a single file (`sample.ts`) will generate six output files:
 
 The package structure is flattened, so that `src/sample.ts` will generate files directly in the package root directory (`dist`). The build process copies the `LICENSE` file and generates a `package.json` in `dist`.
 
-Additionally, `rollup` generates three tree-shaken, bundled version of the entire package with their own source map, which get placed in the package root (`dist`).
+Additionally, `rollup` generates three tree-shaken, bundled versions of the entire package as well as three minified versions, each with their own source map, which get placed in the package root (`dist`).
 
-- CommonJS: `<packageName>.js` and its source map `<packageName>.js.map`
-- ESM: `<packageName>.mjs` and its source map `<packageName>.mjs.map`
-- UMD: `<packageName>.umd.js` and its source map `<packageName>.umd.js.map`
+- CommonJS: `<packageName>.js` and its source map `<packageName>.js.map`, `<packageName>.min.js` and its source map `<packageName>.min.js.map`
+- ESM: `<packageName>.mjs` and its source map `<packageName>.mjs.map`, `<packageName>.min.mjs` and its source map `<packageName>.min.mjs.map`
+- UMD: `<packageName>.umd.js` and its source map `<packageName>.umd.js.map`, `<packageName>.umd.min.js` and its source map `<packageName>.umd.min.js.map`
 
 ### Tests
 
-We use `mocha`, `chai` and `istanbul` to run tests and generate coverage reports. All tests are written in TypeScript You can run the tests using `yarn test`.
+We use `mocha`, `chai` and `istanbul` to run tests and generate coverage reports. All test files are written in TypeScript and located in the `tests` directory.
+
+You can run the tests using `yarn test`.
 
 ### Continuous integration
 
