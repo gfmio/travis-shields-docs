@@ -172,6 +172,7 @@ This is a simple educational project to set up and work with a variety of librar
 - [Gitter](https://gitter.im) as community chat
 - [typedoc](https://typedoc.org/) for generating documentation
 - [gh-pages](https://www.npmjs.com/package/gh-pages) for pushing the documentation to Github pages. It is accessible at <https://gfmio.github.io/example-calculator>.
+- [All Contributors](https://allcontributors.org/) for managing contributors
 
 The repository also features Github issue templates, a pull request template, a [code of conduct](CODE_OF_CONDUCT.md) and a [contributing guideline](CONTRIBUTING.md).
 
@@ -340,6 +341,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/all-contri
 <!-- prettier-ignore -->
 | [<img src="https://avatars1.githubusercontent.com/u/2878342?v=4" width="100px;" alt="Frédérique Mittelstaedt"/><br /><sub><b>Frédérique Mittelstaedt</b></sub>](https://www.gfm.io)<br />[📖](https://github.com/gfmio/example-calculator/commits?author=gfmio "Documentation") [⚠️](https://github.com/gfmio/example-calculator/commits?author=gfmio "Tests") [💻](https://github.com/gfmio/example-calculator/commits?author=gfmio "Code") |
 | :---: |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
