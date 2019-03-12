@@ -81,4 +81,9 @@ export default class Calculator {
     this.current = Math.sinh(this.current);
     return this;
   }
+
+  public cosh() {
+    this.current = Math.cosh(this.current);
+    return this;
+  }
 }
