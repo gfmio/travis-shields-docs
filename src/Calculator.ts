@@ -91,4 +91,8 @@ export default class Calculator {
     this.current = Math.tanh(this.current);
     return this;
   }
+
+  public asin() {
+    this.current = Math.asin(this.current);
+  }
 }

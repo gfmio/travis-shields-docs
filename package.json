@@ -121,7 +121,7 @@
         "@semantic-release/exec",
         {
           "prepareCmd": "yarn gulp copy-new-package-version",
-          "successCmd": "yarn docs && yarn gh-pages"
+          "successCmd": "yarn docs && yarn gh-pages -r \"https://$GH_TOKEN@github.com/gfmio/example-calculator.git\""
         }
       ],
       "@semantic-release/git",
