@@ -1,3 +1,15 @@
+# [0.7.0](https://github.com/gfmio/example-calculator/compare/v0.6.0...v0.7.0) (2019-03-12)
+
+
+### Bug Fixes
+
+* **calculator.ts:** return this from asin method ([20bdded](https://github.com/gfmio/example-calculator/commit/20bdded))
+
+
+### Features
+
+* **calculator.ts:** add asin method ([71360a4](https://github.com/gfmio/example-calculator/commit/71360a4))
+
 # [0.6.0](https://github.com/gfmio/example-calculator/compare/v0.5.5...v0.6.0) (2019-03-12)
 
 
