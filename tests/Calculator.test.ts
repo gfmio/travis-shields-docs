@@ -34,4 +34,6 @@ describe("Calculator", () => {
   it("can cosh", () => expect(calculator.clear().cosh().value()).equal(1));
   // prettier-ignore
   it("can tanh", () => expect(calculator.clear().tanh().value()).equal(0));
+  // prettier-ignore
+  it("can asin", () => expect(calculator.clear().asin().value()).equal(0));
 });
