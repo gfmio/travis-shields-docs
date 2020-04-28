@@ -1,3 +1,10 @@
+## [0.7.1](https://github.com/gfmio/example-calculator/compare/v0.7.0...v0.7.1) (2020-04-28)
+
+
+### Bug Fixes
+
+* **readme.md:** add references to gulp and rollup ([3fd04e9](https://github.com/gfmio/example-calculator/commit/3fd04e9cf8083cd83f4ef8e14693b3a6f9cfc995))
+
 # [0.7.0](https://github.com/gfmio/example-calculator/compare/v0.6.0...v0.7.0) (2019-03-12)
 
 

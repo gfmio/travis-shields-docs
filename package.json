@@ -1,6 +1,6 @@
 {
   "name": "example-calculator",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A simple calculator package developed as an exemplary, educational project using a range of libraries and external tools",
   "author": "Frédérique Mittelstaedt <git@gfm.io> (www.gfm.io)",
   "license": "MIT",
