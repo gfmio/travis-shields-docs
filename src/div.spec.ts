@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
 
-import div from "../src/div";
+import div from "./div";
 
 describe("div", () => {
   it("works for non-zero argments", () => expect(div(6, 2)).equal(3));

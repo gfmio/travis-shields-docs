@@ -14,6 +14,7 @@ before_script:
   - chmod +x ./cc-test-reporter
   - ./cc-test-reporter before-build
 script:
+  - yarn build
   - yarn test
   - yarn lint
 after_script:
@@ -24,8 +25,7 @@ deploy:
   on:
     branch: master
   skip_cleanup: true
-  script:
-    - yarn semantic-release
+  script: yarn semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

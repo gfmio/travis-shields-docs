@@ -6,9 +6,11 @@
     "module": "commonjs",
 
     // Source maps & declarations
-    "sourceMap": true,
-    "declaration": true,
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "declaration": false,
     // "declarationMap": true,
+    "noEmit": true,
 
     // Module resolution
     "moduleResolution": "node",
@@ -75,5 +77,6 @@
     "noUnusedParameters": false,
     "preserveConstEnums": false
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.spec.ts"]
 }

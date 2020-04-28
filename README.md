@@ -127,7 +127,7 @@ This package provides a simple calculator class and several "safe" mathematical 
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/maintenance/yes/2019.svg" alt="Actively maintained (2019)" title="Actively maintained (2019)" />
+    <img src="https://img.shields.io/maintenance/yes/2020.svg" alt="Actively maintained (2020)" title="Actively maintained (2020)" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/example-calculator.svg" alt="" title="" />
@@ -149,15 +149,16 @@ This package provides a simple calculator class and several "safe" mathematical 
   </a>
 </p>
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 <!--[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors) -->
 
 ## Why
 
 This is a simple educational project to set up and work with a variety of libraries and external tools. Among others, it uses:
 
-- the [Gulp](https://gulpjs.com) task runner and build system
+- [ts-pkg-scripts](https://www.npmjs.com/package/ts-pkg-scripts) build tools for compiling, bundling and packaging TypeScript libraries
 - [TypeScript](https://typescriptlang.org) for all source, test, and gulp task files
-- the [rollup](https://rollupjs.org) module bundler
 - the [mocha](https://mochajs.org/) test framework, [chai](https://www.chaijs.com/) assertion library and [istanbul](https://istanbul.js.org) code coverage tool with its [nyc](https://www.npmjs.com/package/nyc) command line interface
 - [Travis.CI](https://travis-ci.com) for continuous integration (running tests and deploying new package versions)
 - [CodeCov](https://codecov.io) and [Code Climate](http://codeclimate.com) for monitoring code coverage and watching the codebase for code smells
@@ -261,28 +262,13 @@ calculator.inverse();
 Some mathematical operations are not defined for all values, such as division by 0 or the logarithm of a negative number or 0. In all of these circumstances, the return values are 0.
 
 ```ts
-calculator
-  .clear()
-  .add(1)
-  .div(0)
-  .value();
+calculator.clear().add(1).div(0).value();
 // Returns 0
-calculator
-  .clear()
-  .add(1)
-  .mod(0)
-  .value();
+calculator.clear().add(1).mod(0).value();
 // Returns 0
-calculator
-  .clear()
-  .sub(1)
-  .ln()
-  .value();
+calculator.clear().sub(1).ln().value();
 // Returns 0
-calculator
-  .clear()
-  .inverse()
-  .value();
+calculator.clear().inverse().value();
 // Returns 0
 ```
 

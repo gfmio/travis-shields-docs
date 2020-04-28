@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
 
-import Calculator from "../src/Calculator";
+import Calculator from "./Calculator";
 
 describe("Calculator", () => {
   it("has the correct initial value when no argument is supplied", () => expect(new Calculator().value()).equal(0));
