@@ -149,6 +149,8 @@ This package provides a simple calculator class and several "safe" mathematical 
   </a>
 </p>
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 <!--[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors) -->
 
 ## Why
@@ -261,28 +263,13 @@ calculator.inverse();
 Some mathematical operations are not defined for all values, such as division by 0 or the logarithm of a negative number or 0. In all of these circumstances, the return values are 0.
 
 ```ts
-calculator
-  .clear()
-  .add(1)
-  .div(0)
-  .value();
+calculator.clear().add(1).div(0).value();
 // Returns 0
-calculator
-  .clear()
-  .add(1)
-  .mod(0)
-  .value();
+calculator.clear().add(1).mod(0).value();
 // Returns 0
-calculator
-  .clear()
-  .sub(1)
-  .ln()
-  .value();
+calculator.clear().sub(1).ln().value();
 // Returns 0
-calculator
-  .clear()
-  .inverse()
-  .value();
+calculator.clear().inverse().value();
 // Returns 0
 ```
 
