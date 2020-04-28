@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
 
-import mod from "../src/mod";
+import mod from "./mod";
 
 describe("mod", () => {
   it("works for non-zero argments", () => expect(mod(6, 4)).equal(2));
