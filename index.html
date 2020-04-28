@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>example-calculator</title>
-	<meta name="description" content="">
+	<meta name="description" content="Documentation for example-calculator">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -13,7 +13,7 @@
 	<div class="tsd-page-toolbar">
 		<div class="container">
 			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="assets/js/search.js" data-base=".">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
 					<div class="field">
 						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
 						<input id="tsd-search-field" type="text" />
@@ -56,7 +56,7 @@
 					<a href="globals.html">Globals</a>
 				</li>
 			</ul>
-			<h1> example-calculator</h1>
+			<h1>example-calculator</h1>
 		</div>
 	</div>
 </header>
@@ -64,7 +64,9 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<h1 id="example-calculator">example-calculator</h1>
+				<a href="#example-calculator" id="example-calculator" style="color: inherit; text-decoration: none;">
+					<h1>example-calculator</h1>
+				</a>
 				<p>This package provides a simple calculator class and several &quot;safe&quot; mathematical operations, in which all undefined or infinite results are replaced with 0. It is a simple educational project using a range of fully-configured and integrated external tools.</p>
 				<!-- Github -->
 				<p align="center">
@@ -172,7 +174,7 @@
 				<!-- Misc -->
 				<p align="center">
 					<a href="#">
-						<img src="https://img.shields.io/maintenance/yes/2019.svg" alt="Actively maintained (2019)" title="Actively maintained (2019)" />
+						<img src="https://img.shields.io/maintenance/yes/2020.svg" alt="Actively maintained (2020)" title="Actively maintained (2020)" />
 					</a>
 					<a href="#">
 						<img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/example-calculator.svg" alt="" title="" />
@@ -189,13 +191,19 @@
 					<a href="#">
 						<img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
 					</a>
+					<a href="#contributors">
+						<img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-1-orange.svg">
+					</a>
 				</p>
-				<h2 id="why">Why</h2>
+				<p><a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly"></a></p>
+				<!--[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors) -->
+				<a href="#why" id="why" style="color: inherit; text-decoration: none;">
+					<h2>Why</h2>
+				</a>
 				<p>This is a simple educational project to set up and work with a variety of libraries and external tools. Among others, it uses:</p>
 				<ul>
-					<li>the <a href="https://gulpjs.com">Gulp</a> task runner and build system</li>
+					<li><a href="https://www.npmjs.com/package/ts-pkg-scripts">ts-pkg-scripts</a> build tools for compiling, bundling and packaging TypeScript libraries (uses <a href="https://gulpjs.com/">gulp</a> and <a href="https://rollupjs.org/">rollup</a> internally)</li>
 					<li><a href="https://typescriptlang.org">TypeScript</a> for all source, test, and gulp task files</li>
-					<li>the <a href="https://rollupjs.org">rollup</a> module bundler</li>
 					<li>the <a href="https://mochajs.org/">mocha</a> test framework, <a href="https://www.chaijs.com/">chai</a> assertion library and <a href="https://istanbul.js.org">istanbul</a> code coverage tool with its <a href="https://www.npmjs.com/package/nyc">nyc</a> command line interface</li>
 					<li><a href="https://travis-ci.com">Travis.CI</a> for continuous integration (running tests and deploying new package versions)</li>
 					<li><a href="https://codecov.io">CodeCov</a> and <a href="http://codeclimate.com">Code Climate</a> for monitoring code coverage and watching the codebase for code smells</li>
@@ -208,11 +216,16 @@
 					<li><a href="https://david-dm.org">David</a> for monitoring if all dependencies are up to date</li>
 					<li><a href="https://snyk.io/">Snyk</a> for monitoring the project for security vulnerabilities</li>
 					<li><a href="https://gitter.im">Gitter</a> as community chat</li>
+					<li><a href="https://typedoc.org/">typedoc</a> for generating documentation</li>
+					<li><a href="https://www.npmjs.com/package/gh-pages">gh-pages</a> for pushing the documentation to Github pages. It is accessible at <a href="https://gfmio.github.io/example-calculator">https://gfmio.github.io/example-calculator</a>.</li>
+					<li><a href="https://allcontributors.org/">All Contributors</a> for managing contributors</li>
 				</ul>
 				<p>The repository also features Github issue templates, a pull request template, a <a href="CODE_OF_CONDUCT.md">code of conduct</a> and a <a href="CONTRIBUTING.md">contributing guideline</a>.</p>
 				<p>Explore some of the tools above and look at the configuration for each to see how they are used and start using them in your own projects, if they fit your needs.</p>
 				<p>If you want to suggest changes or additions, find an error or that anything does not work or no longer works, please file an issue or submit a pull request with your suggested changes.</p>
-				<h2 id="install">Install</h2>
+				<a href="#install" id="install" style="color: inherit; text-decoration: none;">
+					<h2>Install</h2>
+				</a>
 				<p>Install the package from NPM:</p>
 				<pre><code class="language-sh"><span class="hljs-comment"># If you use yarn</span>
 yarn add example-calculator
@@ -220,9 +233,11 @@ yarn add example-calculator
 <span class="hljs-comment"># If you use NPM</span>
 npm install example-calculator</code></pre>
 				<p>You can also import the package bundle from unpkg by inserting the following script tag in your HTML code.</p>
-				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/example-calculator/example-calculator.umd.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
+				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/example-calculator/example-calculator.umd.min.js"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre>
 				<p>The module content will be available as the UMD global <code>exampleCalculator</code>.</p>
-				<h2 id="usage">Usage</h2>
+				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+					<h2>Usage</h2>
+				</a>
 				<p>The package provides a calculator class.</p>
 				<pre><code class="language-ts"><span class="hljs-keyword">import</span> Calculator <span class="hljs-keyword">from</span> <span class="hljs-string">"example-calculator"</span>;
 <span class="hljs-keyword">const</span> calculator = <span class="hljs-keyword">new</span> Calculator();</code></pre>
@@ -260,28 +275,13 @@ calculator.tan();
 <span class="hljs-comment">// Sets the value to the inverse (1/x) of the current value</span>
 calculator.inverse();</code></pre>
 				<p>Some mathematical operations are not defined for all values, such as division by 0 or the logarithm of a negative number or 0. In all of these circumstances, the return values are 0.</p>
-				<pre><code class="language-ts">calculator
-  .clear()
-  .add(<span class="hljs-number">1</span>)
-  .div(<span class="hljs-number">0</span>)
-  .value();
+				<pre><code class="language-ts">calculator.clear().add(<span class="hljs-number">1</span>).div(<span class="hljs-number">0</span>).value();
 <span class="hljs-comment">// Returns 0</span>
-calculator
-  .clear()
-  .add(<span class="hljs-number">1</span>)
-  .mod(<span class="hljs-number">0</span>)
-  .value();
+calculator.clear().add(<span class="hljs-number">1</span>).mod(<span class="hljs-number">0</span>).value();
 <span class="hljs-comment">// Returns 0</span>
-calculator
-  .clear()
-  .sub(<span class="hljs-number">1</span>)
-  .ln()
-  .value();
+calculator.clear().sub(<span class="hljs-number">1</span>).ln().value();
 <span class="hljs-comment">// Returns 0</span>
-calculator
-  .clear()
-  .inverse()
-  .value();
+calculator.clear().inverse().value();
 <span class="hljs-comment">// Returns 0</span></code></pre>
 				<p>You can also import some operations as standalone functions from their submodules:</p>
 				<pre><code class="language-ts"><span class="hljs-keyword">import</span> add <span class="hljs-keyword">from</span> <span class="hljs-string">"example-calculator/add"</span>;
@@ -303,22 +303,47 @@ calculator
 <span class="hljs-comment">// Prints 2</span>
 <span class="hljs-built_in">console</span>.log(ln(<span class="hljs-number">1</span>));
 <span class="hljs-comment">// Prints 0</span></code></pre>
-				<h2 id="contributing">Contributing</h2>
+				<a href="#contributing" id="contributing" style="color: inherit; text-decoration: none;">
+					<h2>Contributing</h2>
+				</a>
 				<p>Please read <a href="https://github.com/gfmio/example-calculator/blob/master/CODE_OF_CODUCT.md">CODE_OF_CODUCT.md</a> for details on our code of conduct and <a href="https://github.com/gfmio/example-calculator/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> for all details on how to contribute to this project (with code or otherwise) and the process for submitting pull requests to us.</p>
-				<h2 id="versioning">Versioning</h2>
+				<a href="#versioning" id="versioning" style="color: inherit; text-decoration: none;">
+					<h2>Versioning</h2>
+				</a>
 				<p>We use <a href="http://semver.org/">SemVer</a> for versioning. Releases are generated using <a href="https://semantic-release.gitbook.io">semantic-release</a>. For the versions available, see the <a href="https://github.com/gfmio/example-calculator/tags">tags</a> on this repository.</p>
-				<h2 id="license">License</h2>
+				<a href="#license" id="license" style="color: inherit; text-decoration: none;">
+					<h2>License</h2>
+				</a>
 				<p>This project is licensed under the MIT License - see the <a href="https://github.com/gfmio/example-calculator/blob/master/LICENSE">LICENSE</a> file for details.</p>
-				<h2 id="acknowledgments">Acknowledgments</h2>
+				<a href="#acknowledgments" id="acknowledgments" style="color: inherit; text-decoration: none;">
+					<h2>Acknowledgments</h2>
+				</a>
 				<ul>
 					<li>This project has taken some inspiration from <a href="https://github.com/alexjoverm/typescript-library-starter">typescript-library-starter</a> by <a href="https://github.com/alexjoverm">@alexjoverm</a></li>
 					<li>The README and CONTRIBUTING files have taken inspiration from <a href="https://gist.github.com/PurpleBooth/109311bb0361f32d87a2">these</a> <a href="https://gist.github.com/PurpleBooth/b24679402957c63ec426">gists</a> by <a href="https://github.com/PurpleBooth">@PurpleBooth</a> and the contributing guidelines from <a href="https://github.com/phly/http/blob/master/CONTRIBUTING.md">phly</a> and <a href="https://github.com/akka/akka-http/blob/master/CONTRIBUTING.md">akka</a>.</li>
 				</ul>
-				<h2 id="authors">Authors</h2>
+				<a href="#authors" id="authors" style="color: inherit; text-decoration: none;">
+					<h2>Authors</h2>
+				</a>
 				<ul>
 					<li>Frédérique Mittelstaedt (<a href="https://github.com/gfmio">@gfmio</a>) - Initial work</li>
 				</ul>
 				<p>See also the list of contributors who participated in this project.</p>
+				<a href="#contributors" id="contributors" style="color: inherit; text-decoration: none;">
+					<h2>Contributors</h2>
+				</a>
+				<p>Thanks goes to these wonderful people (<a href="https://github.com/all-contributors/all-contributors#emoji-key">emoji key</a>):</p>
+				<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+				<!-- prettier-ignore -->
+				<table>
+					<thead>
+						<tr>
+							<th align="center"><a href="https://www.gfm.io"><img src="https://avatars1.githubusercontent.com/u/2878342?v=4" width="100px;" alt="Frédérique Mittelstaedt"/><br /><sub><b>Frédérique Mittelstaedt</b></sub></a><br /><a href="https://github.com/gfmio/example-calculator/commits?author=gfmio" title="Documentation">📖</a> <a href="https://github.com/gfmio/example-calculator/commits?author=gfmio" title="Tests">⚠️</a> <a href="https://github.com/gfmio/example-calculator/commits?author=gfmio" title="Code">💻</a></th>
+						</tr>
+					</thead>
+				</table>
+				<!-- ALL-CONTRIBUTORS-LIST:END -->
+				<p>This project follows the <a href="https://github.com/all-contributors/all-contributors">all-contributors</a> specification. Contributions of any kind welcome!</p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -327,29 +352,29 @@ calculator
 					<li class="globals  ">
 						<a href="globals.html"><em>Globals</em></a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_calculator_.html">"<wbr>Calculator"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_calculator_.html">&quot;<wbr>Calculator&quot;</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_add_.html">"add"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_add_.html">&quot;add&quot;</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_div_.html">"div"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_div_.html">&quot;div&quot;</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_index_.html">"index"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_index_.html">&quot;index&quot;</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_ln_.html">"ln"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_ln_.html">&quot;ln&quot;</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_mod_.html">"mod"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_mod_.html">&quot;mod&quot;</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_mul_.html">"mul"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_mul_.html">&quot;mul&quot;</a>
 					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="modules/_sub_.html">"sub"</a>
+					<li class=" tsd-kind-module">
+						<a href="modules/_sub_.html">&quot;sub&quot;</a>
 					</li>
 				</ul>
 			</nav>
@@ -365,56 +390,10 @@ calculator
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
-				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
-				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
-				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
 				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
-				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
-				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
-				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
-				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
-				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
-				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
-				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
-				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
 			</ul>
 		</div>
 	</div>
