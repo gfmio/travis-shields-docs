@@ -157,9 +157,8 @@ This package provides a simple calculator class and several "safe" mathematical 
 
 This is a simple educational project to set up and work with a variety of libraries and external tools. Among others, it uses:
 
-- the [Gulp](https://gulpjs.com) task runner and build system
+- [ts-pkg-scripts](https://www.npmjs.com/package/ts-pkg-scripts) build tools for compiling, bundling and packaging TypeScript libraries
 - [TypeScript](https://typescriptlang.org) for all source, test, and gulp task files
-- the [rollup](https://rollupjs.org) module bundler
 - the [mocha](https://mochajs.org/) test framework, [chai](https://www.chaijs.com/) assertion library and [istanbul](https://istanbul.js.org) code coverage tool with its [nyc](https://www.npmjs.com/package/nyc) command line interface
 - [Travis.CI](https://travis-ci.com) for continuous integration (running tests and deploying new package versions)
 - [CodeCov](https://codecov.io) and [Code Climate](http://codeclimate.com) for monitoring code coverage and watching the codebase for code smells
