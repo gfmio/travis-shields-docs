@@ -127,7 +127,7 @@ This package provides a simple calculator class and several "safe" mathematical 
 
 <p align="center">
   <a href="#">
-    <img src="https://img.shields.io/maintenance/yes/2019.svg" alt="Actively maintained (2019)" title="Actively maintained (2019)" />
+    <img src="https://img.shields.io/maintenance/yes/2020.svg" alt="Actively maintained (2020)" title="Actively maintained (2020)" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/example-calculator.svg" alt="" title="" />
