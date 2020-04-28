@@ -41,7 +41,7 @@
     "build:compile:es": "ts-pkg compile --es -e .mjs -o dist/lib",
     "build:compile:dts": "ts-pkg compile --dts -o dist/lib",
     "build:copy": "mkdir -p dist && cp README.md LICENSE dist",
-    "build:package-json": "ts-pkg package-json --public",
+    "build:package-json": "ts-pkg create-package-json --public",
     "pretest": "yarn clean:test",
     "test:unit": "cross-env NODE_ENV=test TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\", \"target\":\"es6\", \"removeComments\": false}' mocha",
     "test:coverage": "cross-env NODE_ENV=test TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\", \"target\":\"es6\", \"removeComments\": false}' nyc mocha",
