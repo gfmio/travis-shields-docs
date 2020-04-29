@@ -1,5 +1,5 @@
 /**
- * The modulus of two numbers
+ * Computes the modulus of two numbers
  *
  * Returns 0, if `b` is 0
  */

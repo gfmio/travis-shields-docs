@@ -1,11 +1,9 @@
 {
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true,
     "source.fixAll.eslint": true
   },
   "markdownlint.config": {
-    "list-marker-space": false,
     "no-inline-html": false
   },
   "typescript.tsdk": "node_modules/typescript/lib"

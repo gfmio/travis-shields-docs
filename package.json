@@ -50,7 +50,8 @@
     "posttest:print": "nyc report",
     "posttest:lcov": "nyc report --reporter=lcov",
     "posttest:json": "nyc report --reporter=json",
-    "lint": "tslint --project tsconfig.json",
+    "lint": "eslint './**/*.?(js|jsx|ts|tsx)'",
+    "lint:fix": "eslint './**/*.?(js|jsx|ts|tsx)' --fix",
     "docs": "typedoc",
     "clean:dist": "rimraf ./dist ./.rpt2_cache",
     "clean:node_modules": "rimraf ./node_modules",
@@ -71,11 +72,27 @@
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "@types/prettier": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
     "chai": "^4.2.0",
     "codecov": "^3.6.5",
     "commitizen": "^4.0.4",
     "cross-env": "^7.0.2",
     "cz-conventional-changelog": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.2.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "eslint-plugin-unicorn": "^19.0.1",
     "gh-pages": "^2.2.0",
     "husky": "^4.2.5",
     "mocha": "^7.1.2",
@@ -89,7 +106,6 @@
     "ts-node": "^8.9.1",
     "ts-pkg-scripts": "^0.2.1",
     "tslib": "^1.11.1",
-    "tslint": "^6.1.2",
     "typedoc": "^0.17.6",
     "typescript": "^3.8.3"
   },
@@ -139,5 +155,6 @@
         }
       ]
     ]
-  }
+  },
+  "dependencies": {}
 }
