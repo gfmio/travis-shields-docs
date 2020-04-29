@@ -209,12 +209,6 @@ We use [SemVer](http://semver.org/) for versioning. Releases are generated using
 - This project has taken some inspiration from [typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) by [@alexjoverm](https://github.com/alexjoverm)
 - The README and CONTRIBUTING files have taken inspiration from [these](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) [gists](https://gist.github.com/PurpleBooth/b24679402957c63ec426) by [@PurpleBooth](https://github.com/PurpleBooth) and the contributing guidelines from [phly](https://github.com/phly/http/blob/master/CONTRIBUTING.md) and [akka](https://github.com/akka/akka-http/blob/master/CONTRIBUTING.md).
 
-## Authors
-
-- Frédérique Mittelstaedt ([@gfmio](https://github.com/gfmio)) - Initial work
-
-See also the list of contributors who participated in this project.
-
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
