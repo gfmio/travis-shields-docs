@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-  - "node"
+  - node
+os:
+  - linux
+dist: bionic
 cache:
   yarn: true
 notifications:
@@ -22,9 +25,10 @@ after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 deploy:
   provider: script
+  edge: true
   on:
     branch: master
-  skip_cleanup: true
+  cleanup: false
   script: yarn semantic-release
 branches:
   except:
