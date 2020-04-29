@@ -202,7 +202,7 @@ We use [SemVer](http://semver.org/) for versioning. Releases are generated using
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/gfmio/example-calculator/blob/master/LICENSE) file for details.
+[MIT](LICENSE)
 
 ## Acknowledgments
 
