@@ -23,7 +23,8 @@
     "snyk",
     "example",
     "code",
-    "coverage"
+    "coverage",
+    "ts-pkg"
   ],
   "repository": {
     "type": "git",
@@ -109,6 +110,7 @@
     "typedoc": "^0.17.6",
     "typescript": "^3.8.3"
   },
+  "dependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
@@ -116,45 +118,9 @@
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  },
-  "release": {
-    "branch": "master",
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": true,
-          "pkgRoot": "./dist",
-          "tarballDir": "."
-        }
-      ],
-      [
-        "@semantic-release/exec",
-        {
-          "prepareCmd": "yarn ts-pkg update-package-json -s dist/package.json -d package.json -f version",
-          "successCmd": "yarn docs && yarn gh-pages -r \"https://$GITHUB_TOKEN@github.com/gfmio/example-calculator.git\""
-        }
-      ],
-      "@semantic-release/git",
-      [
-        "@semantic-release/github",
-        {
-          "assets": "./*.tgz"
-        }
-      ]
-    ]
-  },
-  "dependencies": {}
+  }
 }
