@@ -4,154 +4,50 @@ This package provides a simple calculator class and several "safe" mathematical 
 
 <!-- Github -->
 
-<p align="center">
-  <!-- License -->
-  <a href="https://github.com/gfmio/example-calculator/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/gfmio/example-calculator.svg" alt="Github license" title="Github license" />
-  </a>
-  
-  <!-- Open issues -->
-  <a href="https://github.com/gfmio/example-calculator/issues">
-    <img src="https://img.shields.io/github/issues/gfmio/example-calculator.svg" alt="Open issues" title="Open issues" /
-  </a>
-  
-  <!-- Closed issues -->
-  <a href="https://github.com/gfmio/example-calculator/issues?utf8=✓&q=is%3Aissue+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-closed/gfmio/example-calculator.svg" alt="Closed issues" title="Closed issues" />
-  </a>
-  
-  <!-- Open Pull Requests -->
-  <a href="https://github.com/gfmio/example-calculator/pulls">
-    <img src="https://img.shields.io/github/issues-pr/gfmio/example-calculator.svg" alt="Open Pull Requests" title="Open Pull Requests" />
-  </a>
-  
-  <!-- Closed Pull Requests -->
-  <a href="https://github.com/gfmio/example-calculator/pulls?utf8=✓&q=is%3Apr+is%3Aclosed">
-    <img src="https://img.shields.io/github/issues-pr-closed/gfmio/example-calculator.svg" alt="Closed Pull Requests" title="Closed Pull Requests" />
-  </a>
-  
-  <!-- Commit activity -->
-  <a href="https://github.com/gfmio/example-calculator/graphs/commit-activity">
-    <img src="https://img.shields.io/github/commit-activity/m/gfmio/example-calculator.svg" alt="Commit activity" title="Commit activity" />
-  </a>
-  
-  <!-- Contributors -->
-  <a href="https://github.com/gfmio/example-calculator/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/gfmio/example-calculator.svg" alt="Github contributors" title="Github contributors" />
-  </a>
-  
-  <!-- Last commit -->
-  <a href="https://github.com/gfmio/example-calculator/commits/master">
-    <img src="https://img.shields.io/github/last-commit/gfmio/example-calculator.svg" alt="Last commit" title="Last commit" />
-  </a>
-</p>
+[![GitHub license](https://img.shields.io/github/license/gfmio/example-calculator.svg 'GitHub license')](https://github.com/gfmio/example-calculator/blob/master/LICENSE)
+[![Open issues](https://img.shields.io/github/issues/gfmio/example-calculator.svg 'Open issues')](https://github.com/gfmio/example-calculator/issues)
+[![Closed issues](https://img.shields.io/github/issues-closed/gfmio/example-calculator.svg 'Closed issues')](https://github.com/gfmio/example-calculator/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr/gfmio/example-calculator.svg 'Open Pull Requests')](https://github.com/gfmio/example-calculator/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/gfmio/example-calculator.svg 'Closed Pull Requests')](https://github.com/gfmio/example-calculator/pulls?utf8=✓&q=is%3Apr+is%3Aclosed)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/gfmio/example-calculator.svg 'Commit activity')](https://github.com/gfmio/example-calculator/graphs/commit-activity)
+[![Github contributors](https://img.shields.io/github/contributors/gfmio/example-calculator.svg 'Github contributors')](https://github.com/gfmio/example-calculator/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/gfmio/example-calculator.svg 'Last commit')](https://github.com/gfmio/example-calculator/commits/master)
 
 <!-- Build & test tools -->
 
-<p align="center">
-  <!-- Travis.CI -->
-  <a href="https://travis-ci.com/gfmio/example-calculator">
-    <img src="https://img.shields.io/travis/com/gfmio/example-calculator.svg" alt="Travis.CI build status" title="Travis.CI build status" />
-  </a>
-
-  <!-- CodeCov -->
-  <a href="https://codecov.io/gh/gfmio/example-calculator">
-    <img alt="Codecov Coverage Status" src="https://img.shields.io/codecov/c/github/gfmio/example-calculator.svg">
-  </a>
-  
-  <!-- Snyk -->
-  <a href="https://snyk.io/test/github/gfmio/example-calculator?targetFile=package.json">
-    <img src="https://img.shields.io/snyk/vulnerabilities/github/gfmio/example-calculator.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
-  </a>
-
-  <!-- David -->
-  <a href="#">
-    <img src="https://img.shields.io/david/gfmio/example-calculator.svg" alt="Dependencies" title="Dependencies" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/david/dev/gfmio/example-calculator.svg" alt="DevDependencies" title="DevDependencies" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/david/optional/gfmio/example-calculator.svg" alt="OptionalDependencies" title="OptionalDependencies" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/david/peer/gfmio/example-calculator.svg" alt="PeerDependencies" title="PeerDependencies" />
-  </a>
-
-  <!-- Code Climate -->
-  <a href="https://codeclimate.com/github/gfmio/example-calculator/issues">
-    <img src="https://img.shields.io/codeclimate/issues/gfmio/example-calculator.svg" alt="Code Climate issues" title="Code Climate issues" />
-  </a>
-  <a href="https://codeclimate.com/github/gfmio/example-calculator/maintainability">
-    <img src="https://img.shields.io/codeclimate/maintainability/gfmio/example-calculator.svg" alt="Code Climate maintainability" title="Code Climate maintainability" />
-  </a>
-  <a href="https://codeclimate.com/github/gfmio/example-calculator/maintainability">
-    <img src="https://img.shields.io/codeclimate/maintainability-percentage/gfmio/example-calculator.svg" alt="Code Climate maintainability (percentage)" title="Code Climate maintainability (percentage)" />
-  </a>
-  <a href="https://codeclimate.com/github/gfmio/example-calculator">
-    <img src="https://img.shields.io/codeclimate/tech-debt/gfmio/example-calculator.svg" alt="Code Climate technical debt" title="Code Climate technical debt" />
-  </a>
-  <a href="https://codeclimate.com/github/gfmio/example-calculator">
-    <img src="https://img.shields.io/codeclimate/coverage/gfmio/example-calculator.svg" alt="Code Climate coverage" title="Code Climate coverage" />
-  </a>
-  <a href="https://codeclimate.com/github/gfmio/example-calculator">
-    <img src="https://img.shields.io/codeclimate/coverage-letter/gfmio/example-calculator.svg" alt="Code Climate coverage (letter)" title="Code Climate coverage (letter)" />
-  </a>
-</p>
+[![Travis.CI build status](https://img.shields.io/travis/com/gfmio/example-calculator.svg 'Travis.CI build status')](https://travis-ci.com/gfmio/example-calculator)
+[![Codecov Coverage Status](https://img.shields.io/codecov/c/github/gfmio/example-calculator.svg 'Codecov Coverage Status')](https://codecov.io/gh/gfmio/example-calculator)
+[![Known Vulnerabilities on Synk](https://img.shields.io/snyk/vulnerabilities/github/gfmio/example-calculator.svg 'Known Vulnerabilities')](https://snyk.io/test/github/gfmio/example-calculator?targetFile=package.json)
+![Dependencies](https://img.shields.io/david/gfmio/example-calculator.svg 'Dependencies')
+![DevDependencies](https://img.shields.io/david/dev/gfmio/example-calculator.svg 'DevDependencies')
+![OptionalDependencies](https://img.shields.io/david/optional/gfmio/example-calculator.svg 'OptionalDependencies')
+![PeerDependencies](https://img.shields.io/david/peer/gfmio/example-calculator.svg 'PeerDependencies')
+[![Code Climate issues](https://img.shields.io/codeclimate/issues/gfmio/example-calculator.svg 'Code Climate issues')](https://codeclimate.com/github/gfmio/example-calculator/issues)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/gfmio/example-calculator.svg 'Code Climate maintainability')](https://codeclimate.com/github/gfmio/example-calculator/maintainability)
+[![Code Climate maintainability (percentage)](https://img.shields.io/codeclimate/maintainability-percentage/gfmio/example-calculator.svg 'Code Climate maintainability (percentage)')](https://codeclimate.com/github/gfmio/example-calculator/maintainability)
+[![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/gfmio/example-calculator.svg 'Code Climate technical debt')](https://codeclimate.com/github/gfmio/example-calculator)
+[![Code Climate coverage](https://img.shields.io/codeclimate/coverage/gfmio/example-calculator.svg 'Code Climate coverage')](https://codeclimate.com/github/gfmio/example-calculator)
+[![Code Climate coverage (letter)](https://img.shields.io/codeclimate/coverage-letter/gfmio/example-calculator.svg 'Code Climate coverage (letter)')](https://codeclimate.com/github/gfmio/example-calculator)
 
 <!-- NPM shields -->
 
-<p align="center">
-  <a href="https://www.npmjs.com/package/example-calculator">
-    <img src="https://img.shields.io/npm/l/example-calculator.svg" alt="NPM license" title="NPM license" />
-  </a>
-  <a href="https://www.npmjs.com/package/example-calculator">
-    <img src="https://img.shields.io/npm/v/example-calculator.svg" alt="" title="" />
-  </a>
-  <a href="https://www.npmjs.com/package/example-calculator">
-    <img src="https://img.shields.io/npm/dw/example-calculator.svg" alt="" title="" />
-  </a>
-  <a href="https://www.npmjs.com/package/example-calculator">
-    <img src="https://img.shields.io/bundlephobia/minzip/example-calculator.svg" alt="" title="" />
-  </a>
-  <a href="https://www.npmjs.com/package/example-calculator">
-    <img src="https://img.shields.io/npm/types/example-calculator.svg" alt="" title="" />
-  </a>
-  
-  <a href="#">
-    <img src="https://img.shields.io/snyk/vulnerabilities/npm/example-calculator.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
-  </a>  
-</p>
+[![NPM license](https://img.shields.io/npm/l/example-calculator.svg 'NPM license')](https://www.npmjs.com/package/example-calculator)
+[![NPM version](https://img.shields.io/npm/v/example-calculator.svg)](https://www.npmjs.com/package/example-calculator)
+[![NPM downloads per week](https://img.shields.io/npm/dw/example-calculator.svg)](https://www.npmjs.com/package/example-calculator)
+[![Minified gzipped package size](https://img.shields.io/bundlephobia/minzip/example-calculator.svg)](https://www.npmjs.com/package/example-calculator)
+[![NPM type declarations](https://img.shields.io/npm/types/example-calculator.svg)](https://www.npmjs.com/package/example-calculator)
+![Known Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/example-calculator.svg 'Known Vulnerabilities')
 
 <!-- Misc -->
 
-<p align="center">
-  <a href="#">
-    <img src="https://img.shields.io/maintenance/yes/2020.svg" alt="Actively maintained (2020)" title="Actively maintained (2020)" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/example-calculator.svg" alt="" title="" />
-  </a>
-  <a href="https://gitter.im/gfmio/example-calculator">
-    <img alt="Chat on Gitter" src="https://img.shields.io/gitter/room/gfmio/example-calculator.svg">
-  </a>
-  <a href="https://twitter.com/acdlite/status/974390255393505280">
-    <img alt="Blazing Fast" src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg">
-  </a>
-  <a href="https://twitter.com/gfmio">
-    <img alt="Follow gfmio on Twitter" src="https://img.shields.io/twitter/follow/gfmio.svg?label=follow+gfmio">
-  </a>
-  <a href="#">
-    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg">
-  </a>
-  <a href="#contributors">
-    <img alt="All Contributors" src="https://img.shields.io/badge/all_contributors-1-orange.svg">
-  </a>
-</p>
-
+![Actively maintained (2020)](https://img.shields.io/maintenance/yes/2020.svg 'Actively maintained (2020)')
+![Website is up/down](https://img.shields.io/website-up-down-green-red/https/github.com/gfmio/example-calculator.svg)
+[![Chat on Gitter](https://img.shields.io/gitter/room/gfmio/example-calculator.svg 'Chat on Gitter')](https://gitter.im/gfmio/example-calculator)
+[![Blazing Fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg 'Blazing fast')](https://twitter.com/acdlite/status/974390255393505280)
+[![Follow @gfmio on Twitter](https://img.shields.io/twitter/follow/gfmio.svg?label=follow+@gfmio 'Follow @gfmio on Twitter')](https://twitter.com/gfmio)
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg 'code style: prettier')
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg 'All Contributors')](#contributors)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
-<!--[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors) -->
 
 ## Why
 
@@ -306,18 +202,12 @@ We use [SemVer](http://semver.org/) for versioning. Releases are generated using
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/gfmio/example-calculator/blob/master/LICENSE) file for details.
+[MIT](LICENSE)
 
 ## Acknowledgments
 
 - This project has taken some inspiration from [typescript-library-starter](https://github.com/alexjoverm/typescript-library-starter) by [@alexjoverm](https://github.com/alexjoverm)
 - The README and CONTRIBUTING files have taken inspiration from [these](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) [gists](https://gist.github.com/PurpleBooth/b24679402957c63ec426) by [@PurpleBooth](https://github.com/PurpleBooth) and the contributing guidelines from [phly](https://github.com/phly/http/blob/master/CONTRIBUTING.md) and [akka](https://github.com/akka/akka-http/blob/master/CONTRIBUTING.md).
-
-## Authors
-
-- Frédérique Mittelstaedt ([@gfmio](https://github.com/gfmio)) - Initial work
-
-See also the list of contributors who participated in this project.
 
 ## Contributors
 
