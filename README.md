@@ -206,7 +206,7 @@ The module content will be available as the UMD global `exampleCalculator`.
 The package provides a calculator class.
 
 ```ts
-import Calculator from "example-calculator";
+import Calculator from 'example-calculator';
 const calculator = new Calculator();
 ```
 
@@ -275,12 +275,12 @@ calculator.clear().inverse().value();
 You can also import some operations as standalone functions from their submodules:
 
 ```ts
-import add from "example-calculator/add";
-import sub from "example-calculator/sub";
-import mul from "example-calculator/mul";
-import div from "example-calculator/div";
-import mod from "example-calculator/mod";
-import ln from "example-calculator/ln";
+import add from 'example-calculator/add';
+import sub from 'example-calculator/sub';
+import mul from 'example-calculator/mul';
+import div from 'example-calculator/div';
+import mod from 'example-calculator/mod';
+import ln from 'example-calculator/ln';
 
 console.log(add(1, 1));
 // Prints 2

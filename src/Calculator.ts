@@ -1,15 +1,15 @@
-import add from "./add";
-import div from "./div";
-import ln from "./ln";
-import mod from "./mod";
-import mul from "./mul";
-import sub from "./sub";
+import add from './add';
+import div from './div';
+import ln from './ln';
+import mod from './mod';
+import mul from './mul';
+import sub from './sub';
 
 /** A simple stateful calculator */
 export default class Calculator {
-  protected current: number = 0;
+  protected current = 0;
 
-  constructor(initial: number = 0) {
+  constructor(initial = 0) {
     this.current = initial;
   }
 
